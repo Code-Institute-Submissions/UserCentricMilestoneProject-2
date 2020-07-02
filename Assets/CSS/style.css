@@ -1,5 +1,9 @@
 
-h1{
-    color: red;
-}
 
+.dropdown-menu {
+    background-color: rgb(43, 49, 54)
+} 
+
+.dropdown-item {
+    color: #fff;
+}
