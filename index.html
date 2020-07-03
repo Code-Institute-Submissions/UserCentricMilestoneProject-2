@@ -30,7 +30,7 @@
                                     <a class="dropdown-item" href="#">Personalised Tours</a>                         
                                 </div>
                             </li>
-							<li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+							<li class="nav-item"><a class="nav-link" href="#contactUs">Contact us</a></li>
 						</ul>
 					</div>
 				</nav>
@@ -59,86 +59,106 @@
         </div>
 	</section>
 
-    <div class="container">
-        <section>
-            <h3 class="text-uppercase text-center">Tours </h3>
-        </section>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-             <div class="card mb-4"> <!--Example used from bootstrap website, edited to fit my purpose directly-->
-                <div class="card h-100">
-                    <img src="Assets/Images/testimage1.jpg" alt="" >
-                    <div class="card-body">
-                        <h5 class="card-title">North Island Tour</h5>
-                        <p class="card-text">12 Days around the North Island</p>
-                        <p class="card-text"><small class="text-muted">Start Auckland and Finish Wellington.</small></p>
-                    </div>
-                </div>
-             </div>
-               <div class="card mb-4"> <!--Example used from bootstrap website, edited to fit my purpose directly-->
-                <div class="card h-100">
-                    <img src="Assets/Images/testimage2.jpg" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">South Island Tour</h5>
-                        <p class="card-text">12 Days around the South Island</p>
-                        <p class="card-text"><small class="text-muted">Start and Finish Christchurch.</small></p>
-                    </div>
-                </div>
-             </div>
-             <div class="card mb-4"> <!--Example used from bootstrap website, edited to fit my purpose directly-->
-                <div class="card h-100">
-                    <img src="Assets/Images/testimage3.jpg" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">North and South Island Tour</h5>
-                        <p class="card-text">18 days to visit both islands</p>
-                        <p class="card-text"><small class="text-muted">Start Auckland and finish Christchurch.</small></p>
-                    </div>
-                </div>
-             </div>
-             <div class="card mb-4"> <!--Example used from bootstrap website, edited to fit my purpose directly-->
-                <div class="card h-100">
-                    <img src="Assets/Images/testimage4.jpg" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Customised Mini-bus Tour</h5>
-                        <p class="card-text">Tell us what you want to do! Plan a guided tour</p>
-                        <p class="card-text"><small class="text-muted">Starting or finishing in Auckland or Christchuch.</small></p>
-                    </div>
-                </div>
-             </div>
-        </div>
-    </div>
-
-    <div class="form-row container">
-        <div class="form-group col-md-6">
-            <label for="firstName">First Name</label>
-            <input type="text" class="form-control" id="firstName" name="firstName" required>
-        </div>
-        <div class="form-group col-md-6">
-            <label for="lastName">Last Name</label>
-            <input type="text" class="form-control" id="lastName" name="lastName" required>
-        </div>
-        <div class="form-group col-md-6">
-            <label for="emailAddress">Email Address</label>
-            <input type="email" class="form-control" id="emailAddress" name="emailAddress" required>
-        </div>
-                <div class="form-group col-md-6">
-            <label for="emailAddress">Phone Number</label>
-            <input type="text" class="form-control" id="customerPhone" name="customerPhone" required>
-        </div>
-		<div class="form-group col-12">
-			<label for="tourSelectionForm">Which tour are you interested in?</label>
-			<select class="form-control" id="tourSelectionForm">
-		                <option selected><small class="muted-text">Select...</small></option>
-		                <option>North Island Tour</option>
-		                <option>South Island Tour</option>
-		                <option>North and South Island Tour</option>
-		                <option>Customisable Tour</option>
-		            </select>
-        </div>
-			<div class="form-group col-12">
-				<label for="contactTextArea">Any other details</label>
-				<textarea class="form-control" id="contactTextArea" name="contactTextArea" placeholder="Please enter any extra information; such the number of passengers travelling or any particular questions we can answer."></textarea>
+	<div class="container">
+		<section>
+			<h3 class="text-uppercase text-center">Tours </h3>
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+				<div class="card mb-4">
+					<!--Example used from bootstrap website, edited to fit my purpose directly-->
+					<div class="card h-100">
+						<img src="Assets/Images/testimage1.jpg" alt="" >
+						<div class="card-body">
+							<h5 class="card-title">North Island Tour</h5>
+							<p class="card-text">12 Days around the North Island</p>
+							<p class="card-text"><small class="text-muted">Start Auckland and Finish Wellington.</small></p>
+						</div>
+					</div>
+				</div>
+				<div class="card mb-4">
+					<!--Example used from bootstrap website, edited to fit my purpose directly-->
+					<div class="card h-100">
+						<img src="Assets/Images/testimage2.jpg" alt="">
+						<div class="card-body">
+							<h5 class="card-title">South Island Tour</h5>
+							<p class="card-text">12 Days around the South Island</p>
+							<p class="card-text"><small class="text-muted">Start and Finish Christchurch.</small></p>
+						</div>
+					</div>
+				</div>
+				<div class="card mb-4">
+					<!--Example used from bootstrap website, edited to fit my purpose directly-->
+					<div class="card h-100">
+						<img src="Assets/Images/testimage3.jpg" alt="">
+						<div class="card-body">
+							<h5 class="card-title">North and South Island Tour</h5>
+							<p class="card-text">18 days to visit both islands</p>
+							<p class="card-text"><small class="text-muted">Start Auckland and finish Christchurch.</small>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="card mb-4">
+					<!--Example used from bootstrap website, edited to fit my purpose directly-->
+					<div class="card h-100">
+						<img src="Assets/Images/testimage4.jpg" alt="">
+						<div class="card-body">
+							<h5 class="card-title">Customised Mini-bus Tour</h5>
+							<p class="card-text">Tell us what you want to do! Plan a guided tour</p>
+							<p class="card-text">
+								<small class="text-muted">Starting or finishing in Auckland or Christchuch.</small></p>
+						</div>
+					</div>
+				</div>
 			</div>
-    </div>
+		</section>
+	</div>
+
+    <h3 class="text-uppercase text-center" id="contactUs">Contact Us</h3>
+	<form>
+		<div class="container">
+			<div class="form-row justify-content-center">
+	
+				<div class="form-group col-md-6">
+					<label for="firstName">First Name</label>
+					<input type="text" class="form-control" id="firstName" name="firstName" required>
+	            </div>
+				<div class="form-group col-md-6">
+					<label for="lastName">Last Name</label>
+					<input type="text" class="form-control" id="lastName" name="lastName" required>
+	               </div>
+				<div class="form-group col-md-6">
+					<label for="emailAddress">Email Address</label>
+					<input type="email" class="form-control" id="emailAddress" name="emailAddress" required>
+	             </div>
+				<div class="form-group col-md-6">
+						<label for="emailAddress">Phone Number</label>
+						<input type="text" class="form-control" id="customerPhone" name="customerPhone" required>
+	             </div>
+				<div class="form-group col-12">
+					<label for="tourSelectionForm">Which Tour Are You Interested In?</label>
+					<select class="form-control" id="tourSelectionForm">
+						<option selected><small class="muted-text">Select...</small></option>
+						<option>North Island Tour</option>
+						<option>South Island Tour</option>
+						<option>North and South Island Tour</option>
+						<option>Customised Mini-bus Tour</option>
+					</select>
+				</div>
+				<div class="form-group col-12">
+					<label for="contactTextArea">Any other details</label>
+					<textarea class="form-control" id="contactTextArea" name="contactTextArea" placeholder="Please enter any extra information; such the number of passengers travelling or any particular questions we can answer."></textarea>
+				</div>
+			</div>
+		</div>
+	
+	</form>
+   
+ 
+    <footer>
+        <div>
+
+        </div>
+    </footer>
 
 
  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
