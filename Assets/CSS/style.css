@@ -19,3 +19,15 @@
     max-width: 100%;
     height:auto;
 }
+
+/*------------card-temp-------------*/
+
+textarea{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+textarea.form-control {
+    height: 200px;
+}
+
