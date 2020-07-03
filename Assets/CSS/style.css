@@ -13,4 +13,9 @@
 
 
 
-/*------------Navigation-------------*/
+/*------------card-temp-------------*/
+.card img{
+    background-size: contain;
+    max-width: 100%;
+    height:auto;
+}
