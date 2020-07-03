@@ -110,31 +110,35 @@
     <div class="form-row container">
         <div class="form-group col-md-6">
             <label for="firstName">First Name</label>
-            <input type="text" class="form-control" id="firstName" required>
+            <input type="text" class="form-control" id="firstName" name="firstName" required>
         </div>
         <div class="form-group col-md-6">
             <label for="lastName">Last Name</label>
-            <input type="text" class="form-control" id="lastName" required>
+            <input type="text" class="form-control" id="lastName" name="lastName" required>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="emailAddress">Email Address</label>
+            <input type="email" class="form-control" id="emailAddress" name="emailAddress" required>
+        </div>
+                <div class="form-group col-md-6">
+            <label for="emailAddress">Phone Number</label>
+            <input type="text" class="form-control" id="customerPhone" name="customerPhone" required>
         </div>
         <div class="form-group col-12">
-            <label for="emailAddress">Email Address</label>
-            <input type="email" class="form-control" id="emailAddress" required>
-        </div>
-        <div class="form-group">
-        <label for="tourSelectionForm">Please select Tour</label>
+        <label for="tourSelectionForm">Which tour are you interested in?</label>
             <select class="form-control" id="tourSelectionForm">
-                <option selected>Choose...</option>
+                <option selected><small class="muted-text">Select...</small></option>
                 <option>North Island Tour</option>
                 <option>South Island Tour</option>
                 <option>North and South Island Tour</option>
                 <option>Customisable Tour</option>
             </select>
-        </div>
-        <div class="form-group">
-            <label></label>
-            <input>
-        </div>
-      
+
+        <div class="form-group col-12">
+            <label for="contactTextArea">Any other details</label>
+            <textarea class="form-control" id="contactTextArea" name="contactTextArea" placeholder="Please enter any extra information; such the number of passengers travelling or any
+            particular questions we can answer."></textarea>
+        </div>      
     </div>
 
 
