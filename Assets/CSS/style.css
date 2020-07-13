@@ -11,9 +11,9 @@
 /*------------Header-------------*/
 
 .hero-image {
-    position: relative;
-    background-image: url(Assets/Images/heroimage.jpg);
-    height: 50%;
+    height: 100%;
+    width:100%;
+    background: url("../Images/testimage1.jpg"); /* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ to set location to root folder and find images */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
