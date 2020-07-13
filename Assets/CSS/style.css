@@ -11,12 +11,17 @@
 /*------------Header-------------*/
 
 .hero-image {
-    height: 100%;
-    width:100%;
-    background: url("../Images/testimage1.jpg"); /* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ to set location to root folder and find images */
+    background: url("../Images/heroimage.jpg");
+     /* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ 
+    to set location to root folder and find images */
+
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    /*To move image out from under navbar element*/
+    margin-top: 3.5rem;
 }
 
 
