@@ -10,7 +10,9 @@
 
 /*------------Header-------------*/
 
-
+.hero-image {
+    position: absolute;
+}
 
 
 /*------------card-temp-------------*/
@@ -20,7 +22,7 @@
     height:auto;
 }
 
-/*------------card-temp-------------*/
+/*------------Forms-------------*/
 
 textarea{
     padding-left: 0px;
@@ -31,3 +33,12 @@ textarea.form-control {
     height: 200px;
 }
 
+/*------------Footer-------------*/
+
+.footer{
+    background-color: #3a3a3a;
+}
+
+.footer p {
+    color:#fff;
+}
