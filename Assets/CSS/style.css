@@ -12,8 +12,7 @@
 
 .hero-image {
     background: url("../Images/heroimage.jpg");
-     /* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ 
-    to set location to root folder and find images */
+     /* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ to set location to root folder and find images */
 
     height: 500px;
     background-position: center;
@@ -22,6 +21,19 @@
 
     /*To move image out from under navbar element*/
     margin-top: 3.5rem;
+}
+
+.hero-text{
+    padding-top: 6rem;
+}
+
+.hero-text h1{
+    color: #fff;
+}
+
+.hero-text p{
+    color:#fff;
+    padding-top: 10px;
 }
 
 
@@ -51,4 +63,11 @@ textarea.form-control {
 
 .footer p {
     color:#fff;
+}
+
+
+/*------------General layout-------------*/
+
+.container {
+    margin-top: 30px;
 }
