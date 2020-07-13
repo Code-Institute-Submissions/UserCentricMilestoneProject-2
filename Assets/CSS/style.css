@@ -11,7 +11,12 @@
 /*------------Header-------------*/
 
 .hero-image {
-    position: absolute;
+    position: relative;
+    background-image: url(Assets/Images/heroimage.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
