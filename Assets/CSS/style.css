@@ -74,3 +74,14 @@ textarea.form-control {
     margin-bottom: 30px;
 
 }
+
+/*------------Tour itineraries-------------*/
+
+.tour-image-group{
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+.tour-image{
+    padding: 0px;
+}
