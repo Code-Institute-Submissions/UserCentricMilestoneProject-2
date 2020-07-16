@@ -80,6 +80,12 @@ textarea.form-control {
 
 /*------------Tour itineraries-------------*/
 
+.tourhero-image img{
+   height: 350px;
+   width: 100%;
+   object-fit: cover; /* suggested by https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-not-stretch/43001159 for use of object -fit cover */
+}
+
 .tour-image-group{
     padding-top:30px;
     padding-bottom: 30px;
