@@ -57,14 +57,6 @@
     text-shadow: -1px -1px 0 rgba(0,0,0,0.25), 1px -1px 0 rgba(0,0,0,0.25),-1px 1px 0 rgba(0,0,0,0.25), 1px 1px 0 rgba(0,0,0,0.25);
 }
 
-
-.intro-text h4{
-    font-family: "Exo", sans-serif;
-}
-
-.intro-text p{
-    font-family:"Lato", sans-serif;
-}
 /*------------Carousel-------------*/
 
 /*-----------Image Links-----------*/
@@ -155,8 +147,13 @@ textarea.form-control {
 
 }
 
-.container h3{
-    padding-top: 1.5rem;
+
+.heading-display {
+    font-family: "Exo", sans-serif;
+}
+
+p{
+    font-family: "Lato", sans-serif;
 }
 
 /*------------Tour itineraries-------------*/
@@ -173,7 +170,17 @@ textarea.form-control {
 }
 
 .tour-heading h2{
+    font-family:"Exo", sans-serif;
     padding-bottom: 1rem;
+}
+
+.tour-itinerary h3{
+    font-family:"Exo", sans-serif;
+    padding: 2rem 0 0;
+}
+
+.tour-itinerary p{
+    font-family: "Lato", sans-serif;
 }
 
 
