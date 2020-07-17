@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Lato:wght@100;300;400;500&display=swap');
+
+
 /*------------Navigation-------------*/
 
 .dropdown-menu {
@@ -12,6 +15,9 @@
     background-color: transparent;
 }
 
+.fa-kiwi-bird{
+    padding-right:10px;
+}
 /*------------Header-------------*/
 
 .hero-image {
@@ -32,18 +38,33 @@
 }
 
 .hero-text{
-    padding-top: 6rem;
+    padding-top: 2.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .hero-text h1{
+    font-family: "Exo", sans-serif;
     color: #fff;
+    font-weight: 600;
 }
 
 .hero-text p{
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
     color:#fff;
-    padding-top: 10px;
+    padding-top: 3rem;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.25), 1px -1px 0 rgba(0,0,0,0.25),-1px 1px 0 rgba(0,0,0,0.25), 1px 1px 0 rgba(0,0,0,0.25);
 }
 
+
+.intro-text h4{
+    font-family: "Exo", sans-serif;
+}
+
+.intro-text p{
+    font-family:"Lato", sans-serif;
+}
 /*------------Carousel-------------*/
 
 /*-----------Image Links-----------*/
@@ -60,12 +81,17 @@
 }
 
 .tour-textbox {
+    font-family:"Exo", sans-serif;
     position: absolute;
     color: white;
+    text-align: center;
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);  /* fix found at https://www.w3schools.com/howto/howto_css_image_text.asp for image positioning*/
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.25), 1px -1px 0 rgba(0,0,0,0.25),-1px 1px 0 rgba(0,0,0,0.25), 1px 1px 0 rgba(0,0,0,0.25);
 }
+
+.tour-textbox
 
 @media (min-width: 768px){
     .tour-image{
@@ -98,6 +124,7 @@ textarea.form-control {
 
 .footer p {
     color:#fff;
+    padding-left: 10px;
 }
 
 
