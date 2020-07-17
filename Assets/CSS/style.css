@@ -38,28 +38,72 @@
 }
 
 .hero-text{
-    padding-top: 2.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, 0);
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.25), 1px -1px 0 rgba(0,0,0,0.25),-1px 1px 0 rgba(0,0,0,0.25), 1px 1px 0 rgba(0,0,0,0.25);
 }
 
 .hero-text h1{
     font-family: "Exo", sans-serif;
     color: #fff;
     font-weight: 600;
+    font-size: 3rem;
 }
 
 .hero-text p{
     font-family: "Exo", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     color:#fff;
-    padding-top: 3rem;
+    padding: 5px 12px;
     text-shadow: -1px -1px 0 rgba(0,0,0,0.25), 1px -1px 0 rgba(0,0,0,0.25),-1px 1px 0 rgba(0,0,0,0.25), 1px 1px 0 rgba(0,0,0,0.25);
 }
 
 /*------------Carousel-------------*/
 
+.carousel-container{
+    position: relative;
+}
+
+.intro-text{
+    position: absolute;
+    width: 90%;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    color: #fff;
+    background-blend-mode: overlay;
+}
+
+.carousel-dimensions.mainpage-carousel{
+    padding-bottom: 2rem;
+    margin-top:2rem;
+}
+
+.mainpage-inner .carousel-item {
+    height: 300px;
+}
+
+.mainpage-inner .carousel-item img{
+    height: 100% !important;
+    object-fit: cover;
+}
+
 /*-----------Image Links-----------*/
+
+.tour-background{
+    padding:0 2rem 3rem;
+    background-color: #273440;
+    color: #fff;
+}
+
+.tour-background h3{
+    padding-top:2rem;
+
+}
 
 .tour-anchor{
     padding: 0px;
