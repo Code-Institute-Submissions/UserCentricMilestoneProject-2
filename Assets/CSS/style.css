@@ -127,6 +127,26 @@ textarea.form-control {
     padding-left: 10px;
 }
 
+.social-links{
+    
+}
+
+.social-links li{
+    padding: 0 0.25rem;
+}
+
+.social-links li a i{
+    color: #fff;
+    height: 2rem;
+    width: 2rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.list-inline{
+    display:inline-block;
+}
+
 
 /*------------General layout-------------*/
 .container{
