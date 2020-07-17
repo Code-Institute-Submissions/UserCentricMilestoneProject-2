@@ -115,12 +115,9 @@ textarea.form-control {
 }
 
 .footer p {
+    font-family: "Exo", sans-serif;
     color:#fff;
     padding-left: 10px;
-}
-
-.social-links{
-    
 }
 
 .social-links li{
@@ -147,8 +144,9 @@ textarea.form-control {
 
 }
 
+/*--------------Text general---------------*/
 
-.heading-display {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Exo", sans-serif;
 }
 
@@ -170,17 +168,12 @@ p{
 }
 
 .tour-heading h2{
-    font-family:"Exo", sans-serif;
     padding-bottom: 1rem;
 }
 
 .tour-itinerary h3{
-    font-family:"Exo", sans-serif;
     padding: 2rem 0 0;
 }
 
-.tour-itinerary p{
-    font-family: "Lato", sans-serif;
-}
 
 
