@@ -2,9 +2,12 @@
 
 
 /*------------Navigation-------------*/
+.bg-dark{
+    background-color: rgba(24,41,64,1) !important;
+}
 
 .dropdown-menu {
-    background-color: rgb(43, 49, 54)
+    background-color: rgba(24,41,64,1);
 } 
 
 .dropdown-item {
@@ -61,7 +64,7 @@
     text-shadow: -1px -1px 0 rgba(0,0,0,0.25), 1px -1px 0 rgba(0,0,0,0.25),-1px 1px 0 rgba(0,0,0,0.25), 1px 1px 0 rgba(0,0,0,0.25);
 }
 
-/*------------Carousel-------------*/
+/*------------Mainpage - Carousel-------------*/
 
 .carousel-container{
     position: relative;
@@ -79,8 +82,8 @@
 }
 
 .carousel-dimensions.mainpage-carousel{
-    padding-bottom: 2rem;
-    margin-top:2rem;
+    padding-bottom: 1rem;
+    margin-top:1rem;
 }
 
 .mainpage-inner .carousel-item {
@@ -155,7 +158,7 @@ textarea.form-control {
 /*------------Footer-------------*/
 
 .footer{
-    background-color: #3a3a3a;
+    background-color: rgba(24,41,64,1) !important;
 }
 
 .footer p {
@@ -200,6 +203,11 @@ p{
 
 /*------------Tour itineraries-------------*/
 
+.alternate-bg{
+    background-color: #182940;
+    color: #fff;
+}
+
 .tourhero-image img{
    height: 20rem;
    width: 100%;
@@ -208,7 +216,7 @@ p{
 
 .tour-image-group{
     padding-top:1rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .tour-heading h2{
@@ -219,8 +227,24 @@ p{
     padding: 1rem 0;
 }
 
-.alternate-bg{
-    background-color: #acd1f2;
+.tour-itinerary p{
+    margin: 0 10px;
 }
+
+.tourpage-carousel{
+    margin: 0;
+    padding: 0;
+}
+
+.tourpage-inner .carousel-item {
+    height: 300px;
+}
+
+.tourpage-inner .carousel-item img{
+    height: 100% !important;
+    object-fit: cover;
+}
+
+
 
 
