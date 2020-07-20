@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Lato:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Lato:wght@100;300;400;500;600,700;&display=swap');
 
 
 /*------------Navigation-------------*/
@@ -27,7 +27,7 @@
     background: url("../Images/heroimage.jpg");
      /* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ to set location to root folder and find images */
 
-    height: 500px;
+    height: 32rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,6 +64,7 @@
     text-shadow: -1px -1px 0 rgba(0,0,0,0.25), 1px -1px 0 rgba(0,0,0,0.25),-1px 1px 0 rgba(0,0,0,0.25), 1px 1px 0 rgba(0,0,0,0.25);
 }
 
+
 /*------------Mainpage - Carousel-------------*/
 
 .carousel-container{
@@ -95,7 +96,7 @@
     object-fit: cover;
 }
 
-/*-----------Image Links-----------*/
+/*-----------Tour Image Links-----------*/
 
 .tour-background{
     padding:0 2rem 3rem;
@@ -105,7 +106,7 @@
 
 .tour-background h3{
     padding-top:2rem;
-
+    padding-block-end: 0.5rem;
 }
 
 .tour-anchor{
@@ -132,11 +133,7 @@
 
 .tour-textbox
 
-@media (min-width: 768px){
-    .tour-image{
-        padding-bottom: 0.55rem;
-    }
-}
+
 
 @media (min-width:992px){
     .tour-image{
@@ -153,6 +150,10 @@ textarea{
 
 textarea.form-control {
     height: 200px;
+}
+
+.contact-us-layout h3{
+    padding: 1rem;
 }
 
 /*------------Footer-------------*/
@@ -245,6 +246,100 @@ p{
     object-fit: cover;
 }
 
+
+
+/*-------------- Responsive media styles---------------*/
+
+@media (min-width: 768px){
+   
+    .navbar-brand,.nav-link{
+        font-size: 1.5rem;
+    }
+
+    .hero-image{
+        height: 40rem;
+    }
+
+    .hero-text{
+        top: 50%;
+        font-size: 
+    }
+    .hero-text h1{
+        font-size:4.5rem;
+    }
+
+    .hero-text p{
+        font-size: 1.5rem;
+    }
+    
+    .intro-text h3{
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+
+    .tour-background h3 {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    
+    .tour-textbox h5{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+
+    .tour-image{
+        padding-bottom: 0.55rem;
+    }
+
+    .tour-background p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+    }   
+
+    .contact-us-layout h3{
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .footer p {
+    font-size: 1.23rem;
+    padding-top: 0.5rem;
+    font-weight: 300;
+    }
+
+    .btn{
+        font-weight: 500;
+        padding: 0.5rem 1.25rem;
+    }
+
+    .tour-background p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    }
+
+    .tourhero-image img {
+    height: 30rem;
+    }
+
+    .tour-heading h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    }
+
+    .tour-image-group img {
+    height: 23rem;
+    object-fit: cover;
+    }
+
+}
+
+    
+   
+
+    
+}
 
 
 
