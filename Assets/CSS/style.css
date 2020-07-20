@@ -215,9 +215,12 @@ p{
     padding-bottom: 1rem;
 }
 
-.tour-itinerary h3{
-    padding: 2rem 0 0;
+.tour-itinerary{
+    padding: 1rem 0;
 }
 
+.alternate-bg{
+    background-color: #acd1f2;
+}
 
 
