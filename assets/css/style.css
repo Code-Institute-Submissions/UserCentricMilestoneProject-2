@@ -27,7 +27,7 @@ body{
 /*------------Header-------------*/
 
 .hero-image {
-    background: url("../Images/heroimage.jpg");
+    background: url("../images/heroimage.jpg");
      /* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ to set location to root folder and find images */
 
     height: 32rem;
