@@ -12,7 +12,7 @@
 <body>
 	<header>
 		<!--navbar/toggle button, initial base code copied from bootstrap navbar components page-->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-custom">
                     <a class="navbar-brand" href="index.html"><i class="fas fa-kiwi-bird"> </i>Kiwi Bus Tours</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavigationItems" aria-controls="navbarNavigationItems" aria-expanded="false"
 	                    aria-label="Toggle nagivation">
@@ -21,10 +21,10 @@
 					<div class="collapse navbar-collapse" id="navbarNavigationItems">
 						<ul class="navbar-nav mr-auto">
 							<li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(Current)</span></a></li>
-							<li class="nav-item dropdown bg-dark">
+							<li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarTourDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Tours<span class="sr-only">Tours</span></a>
-                                <div class="dropdown-menu" aria-labelledby="navbarTourDropdown"> 
+                                <div class="dropdown-menu bg-custom" aria-labelledby="navbarTourDropdown"> 
                                     <a class="dropdown-item" href="northislandtour.html">North Island Tour</a>
                                     <a class="dropdown-item" href="southislandtour.html">South Island Tour</a>
                                     <a class="dropdown-item" href="bothislandtour.html">North and South Island Tour</a> <!--may but divider between #3 and #4-->
@@ -37,9 +37,9 @@
 				</nav>
             <!--Navbar-->
         <!--Header Text and hero image-->
-			<div class="hero-image">
-            <div class="hero-image-opacity">
-                <div class="hero-text">
+			<div class=" container-fluid hero-image">
+            <div class=" row hero-image-opacity">
+                <div class=" col-12 hero-text">
 					<h1 class="text-uppercase text-center heading-text">
 						Kiwi Bus Tours
 					</h1>
@@ -51,9 +51,9 @@
 			</div>
 	</header>
 <!--Header Text and hero image-->
-	<section>
-        <div class="carousel-container">
-            <div class="intro-text">
+	<section class="container">
+        <div class="row carousel-container">
+            <div class="col-12 intro-text">
                 <h3 class="text-center heading-text text-uppercase">The greenest way to explore</h3>
             </div>
             <div class="carousel-dimensions mainpage-carousel">
@@ -93,28 +93,28 @@
             <p class="text-center"> Take a look at the experiences we have available.</p>
 			<div class="row">
 				<div class="col-12 col-md-12 col-lg-6 tour-anchor">
-					<a class="" href="northislandtour.html"><img class="tour-image" src="assets/images/testimage4.jpg" alt="">
+					<a class="" href="northislandtour.html"><img class="mw-100" src="assets/images/testimage4.jpg" alt="">
 						<div class="tour-textbox">
 							<h5>North Island Tour</h5>
 						</div>
 					</a>	
 				</div>
 				<div class="col-12 col-md-12 col-lg-6 tour-anchor">
-					<a  href="southislandtour.html"><img class="tour-image" src="assets/images/testimage3.jpg" alt="">
+					<a  href="southislandtour.html"><img class="mw-100" src="assets/images/testimage3.jpg" alt="">
 						<div class="tour-textbox">
 							<h5>South Island Tour</h5>
 						</div>
 					</a>
 				</div>	
 				<div class="col-12 col-md-12 col-lg-6 tour-anchor">
-					<a class="" href="bothislandtour.html"><img class="tour-image" src="assets/images/testimage2.jpg" alt="">
+					<a class="" href="bothislandtour.html"><img class="mw-100" src="assets/images/testimage2.jpg" alt="">
 						<div class="tour-textbox">
 							<h5>North and South Island Tour</h5>
 						</div>
 					</a>	
 				</div>
 				<div class="col-12 col-md-12 col-lg-6 tour-anchor">
-					<a class="" href="nothislandtour.html"><img class="tour-image" src="assets/images/testimage1.jpg" alt="">
+					<a class="" href="nothislandtour.html"><img class="mw-100" src="assets/images/testimage1.jpg" alt="">
 						<div class="tour-textbox">
 							<h5>Custom Tours</h5>
 						</div>
@@ -162,13 +162,13 @@
                      placeholder="Please enter any extra information; such the number of passengers travelling or any particular questions we can answer."></textarea>
 				</div>
 			</div>
-            <button type="submit" class="btn btn-dark">Contact Us</button>
+            <button type="submit" class="btn btn-green">Contact Us</button>
 		</div>
 	</form>
    
  
     <footer>
-        <div class="container-fluid footer mt-auto py-3">
+        <div class="container-fluid footer mt-auto py-3 bg-custom">
             <div class="row">
                 <div class="col-12 col-md-6 text-center">
                     <p>© Kiwi Bus Tour Company 2020</p>
