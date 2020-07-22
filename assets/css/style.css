@@ -107,7 +107,6 @@ body{
 
 .tour-background h3{
     padding-top:2rem;
-    padding-block-end: 0.5rem;
 }
 
 .tour-anchor{
@@ -136,27 +135,13 @@ body{
     text-shadow: -1px -1px 0 rgba(0,0,0,0.25), 1px -1px 0 rgba(0,0,0,0.25),-1px 1px 0 rgba(0,0,0,0.25), 1px 1px 0 rgba(0,0,0,0.25);
 }
 
-.tour-textbox
-
-
-
-@media (min-width:992px){
+@media only screen and (min-width:992px){
     .tour-image{
         padding-left:0.25rem;
     }
 }
 
 /*------------Forms-------------*/
-
-textarea{
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-textarea.form-control {
-    height: 200px;
-}
-
 .contact-us-layout h3{
     padding: 1rem;
 }
@@ -261,12 +246,12 @@ p{
 
 
 
-/*-------------- Responsive media styles---------------*/
+/*-------------- Media Queries---------------*/
 
 @media (min-width: 768px){
    
     .navbar-brand,.nav-link{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .hero-image{
@@ -274,8 +259,7 @@ p{
     }
 
     .hero-text{
-        top: 50%;
-        font-size: 
+        top: 50%; 
     }
     .hero-text h1{
         font-size:4.5rem;
@@ -349,11 +333,6 @@ p{
 
 }
 
-    
-   
-
-    
-}
 
 
 
