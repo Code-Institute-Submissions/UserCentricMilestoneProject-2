@@ -94,12 +94,6 @@ body{
     color: #fff;
 }
 
-/*
-.tour-background h3{
-    padding-top:2rem;
-}
-*/
-
 .tour-anchor{
     padding: 0px;
 }
@@ -125,16 +119,19 @@ body{
     }
 }
 
-/*------------Forms-------------*/
-/*
-.contact-us-layout h3{
-    padding: 1rem;
-}
-*/
+/*------------Buttons-------------*/
 
 .btn-green{
     background-color: #27402D;
     color:#fff;
+}
+
+.btn-position{
+    margin-bottom: 1.5rem;
+}
+
+.btn-bottom-page{
+       margin-top: 2rem;
 }
 
 /*------------Footer-------------*/
@@ -163,9 +160,7 @@ body{
 
 
 /*------------General layout-------------*/
-.btn-position{
-    margin-bottom: 1.5rem;
-}
+
 
 /*--------------Typography---------------*/
 
@@ -184,6 +179,10 @@ p{
    height: 20rem;
    width: 100%;
    object-fit: cover; /* suggested by https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-not-stretch/43001159 for use of object -fit cover */
+}
+.price-header{
+    font-size: 2rem;
+    margin-top: 1.5rem;
 }
 
 .tour-image-group{
