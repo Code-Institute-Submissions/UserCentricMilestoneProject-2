@@ -37,7 +37,7 @@
 				</nav>
             <!--Navbar-->
         <!--Header Text and hero image-->
-			<div class=" container-fluid hero-image">
+		<div class=" container-fluid hero-image">
             <div class=" row hero-image-opacity">
                 <div class=" col-12 hero-text">
 					<h1 class="text-uppercase text-center heading-text">
@@ -128,29 +128,29 @@
 	
 
     <!--Form containing selection of forms and inputs for contacting company-->
-	<form id="contactUs">
-		<div class="container">
+	<form id="contactUs" class="contact-us">
+		<div class="container-fluid opacity">
             <h3 class="text-uppercase text-center" id="contactHeading">Contact Us</h3>
 			<div class="form-row justify-content-center"> <!-- Found code for justify-content-center at https://stackoverflow.com/questions/46560362/how-to-center-form-using-bootstrap-4/46560551 -->
 				<div class="form-group col-md-6">
 					<label for="firstName">First Name</label>
-					<input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required>
+					<input type="text" class="form-control elegant-form" id="firstName" name="firstName" placeholder="First Name" required>
 	            </div>
 				<div class="form-group col-md-6">
 					<label for="lastName">Last Name</label>
-					<input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required>
+					<input type="text" class="form-control elegant-form" id="lastName" name="lastName" placeholder="Last Name" required>
 	               </div>
 				<div class="form-group col-md-6">
 					<label for="emailAddress">Email Address</label>
-					<input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="Email Address" required>
+					<input type="email" class="form-control elegant-form" id="emailAddress" name="emailAddress" placeholder="Email Address" required>
 	             </div>
 				<div class="form-group col-md-6">
 						<label for="phone">Phone Number</label>
-						<input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" required>
+						<input type="tel" class="form-control elegant-form" id="phone" name="phone" placeholder="Phone Number" required>
 	             </div>
 				<div class="form-group col-12">
 					<label for="tourSelectionForm">Which Tour Are You Interested In?</label>
-					<select class="form-control" id="tourSelectionForm">
+					<select class="form-control elegant-form" id="tourSelectionForm">
 						<option selected><small class="muted-text">Select...</small></option>
 						<option>North Island Tour</option>
 						<option>South Island Tour</option>
@@ -160,7 +160,7 @@
 				</div>
 				<div class="form-group col-12">
 					<label for="contactTextArea">Any other details</label>
-					<textarea class="form-control" id="contactTextArea" name="contactTextArea" rows="10" cols="50"
+					<textarea class="form-control elegant-form" id="contactTextArea" name="contactTextArea" rows="10" cols="50"
                      placeholder="Please enter any extra information; such the number of passengers travelling or any particular questions we can answer."></textarea>
 				</div>
 			</div>
