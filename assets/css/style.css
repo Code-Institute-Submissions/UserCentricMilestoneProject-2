@@ -269,12 +269,26 @@ p{
     object-fit: cover;
 }
 
+.event-style h4{
+    font-weight: bold;
+}
+
 
 
 /*-------------- Media Queries---------------*/
 
 @media (min-width: 768px){
-   
+    
+    h3{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+
     .navbar-brand,.nav-link{
         font-size: 1.25rem;
     }
@@ -294,17 +308,13 @@ p{
         font-size: 1.5rem;
     }
     
-    .intro-text h3{
+    .intro-text h2{
         font-size: 2.5rem;
         font-weight: 300;
     }
 
-    .tour-background h3 {
-        font-size: 3rem;
-        font-weight: 400;
-    }
-    
-    .tour-textbox h5{
+
+    .tour-textbox h2{
         font-size: 2.5rem;
         font-weight: 400;
     }
@@ -316,13 +326,7 @@ p{
     .tour-background p {
     font-size: 1.25rem;
     font-weight: 300;
-    padding-bottom: 0.5rem;
     }   
-
-    .contact-us h3{
-        font-size: 3rem;
-        font-weight: 400;
-    }
 
     .footer p {
     font-size: 1.23rem;
@@ -335,19 +339,8 @@ p{
         padding: 0.5rem 1.25rem;
     }
 
-    .tour-background p {
-    font-size: 1.25rem;
-    font-weight: 400;
-    padding-bottom: 1rem;
-    }
-
     .tourhero-image img {
     height: 30rem;
-    }
-
-    .tour-heading h2 {
-    font-weight: 600;
-    font-size: 2.5rem;
     }
 
     .tour-image-group img {
@@ -356,8 +349,14 @@ p{
     width: 100%;
     }
 
+    .tourpage-inner .carousel-item{
+        height: 400px;
+    }
+
 }
-
-
+/*
+button for later{
+    did mx-auto in class and width 40%, try better option.
+}*/
 
 
