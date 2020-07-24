@@ -134,7 +134,7 @@ body{
 
 /*------------Contact Us-------------*/
 .contact-us{
-    background-image: url("../images/20190416_225735-min.jpg");
+    background-image: url("../images/contactusbackground.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -322,10 +322,6 @@ p{
     .contact-us h3{
         font-size: 3rem;
         font-weight: 400;
-    }
-
-    .contact-us .elegant-form {
-        
     }
 
     .footer p {
