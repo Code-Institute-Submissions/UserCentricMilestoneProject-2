@@ -12,7 +12,7 @@
 <body>
 	<header>
 		<!--navbar/toggle button, initial base code copied from bootstrap navbar components page-->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-custom">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-custom" role="navigation" >
                     <a class="navbar-brand" href="index.html"><i class="fas fa-kiwi-bird"> </i>Kiwi Bus Tours</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavigationItems" aria-controls="navbarNavigationItems" aria-expanded="false"
 	                    aria-label="Toggle nagivation">
@@ -23,7 +23,7 @@
 							<li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(Current)</span></a></li>
 							<li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarTourDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Tours<span class="sr-only">Tours</span></a>
+                                Tours<span class="sr-only">Tours Dropdown menu</span></a>
                                 <div class="dropdown-menu bg-custom" aria-labelledby="navbarTourDropdown"> 
                                     <a class="dropdown-item" href="northislandtour.html">North Island Tour</a>
                                     <a class="dropdown-item" href="southislandtour.html">South Island Tour</a>
@@ -51,7 +51,7 @@
 			</div>
 	</header>
 <!--Header Text and hero image-->
-	<section class="container-fluid">
+	<div class="container-fluid">
         <div class="row carousel-container">
             <div class="col-12 intro-text">
                 <h2 class="text-center heading-text text-uppercase">The greenest way to explore</h2>
@@ -89,7 +89,7 @@
 		        </div>
 	        </div>
         </div>      
-    </section>
+    </div>
 
     <section>
 	    <div class="container-fluid tour-background">		
@@ -168,7 +168,7 @@
                      placeholder="Please enter any extra information; such the number of passengers travelling or any particular questions we can answer."></textarea>
 				</div>
 			</div>
-            <button type="submit" class="btn btn-green btn-lg btn-block btn-position">Submit</button>
+            <button type="submit" role="button" class="btn btn-green btn-lg btn-block btn-position">Submit</button>
 		</div>
 	</form>
    
