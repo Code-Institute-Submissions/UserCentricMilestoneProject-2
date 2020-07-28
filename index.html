@@ -117,6 +117,7 @@
             </div>
         </div>
     </div>
+    
 
       <!--Testimonials-->
 	<div class="container">
@@ -176,41 +177,56 @@
     <!--Form containing selection of forms and inputs for contacting company-->
 	<form id="contactUs" class="contact-us">
 		<div class="container-fluid opacity">
-            <h2 class="text-uppercase text-center" id="contactHeading">Contact Us</h2>
-			<div class="form-row justify-content-center"> <!-- Found code for justify-content-center at https://stackoverflow.com/questions/46560362/how-to-center-form-using-bootstrap-4/46560551 -->
-				<div class="form-group col-md-6">
-					<label for="firstName">First Name</label>
-					<input type="text" class="form-control elegant-form" id="firstName" name="firstName" placeholder="First Name" required>
-	            </div>
-				<div class="form-group col-md-6">
-					<label for="surname">Surname</label>
-					<input type="text" class="form-control elegant-form" id="surname" name="surname" placeholder="Last Name" required>
-	               </div>
-				<div class="form-group col-md-6">
-					<label for="emailAddress">Email Address</label>
-					<input type="email" class="form-control elegant-form" id="emailAddress" name="emailAddress" placeholder="Email Address" required>
-	             </div>
-				<div class="form-group col-md-6">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <h2 class="text-uppercase text-center" id="contactHeading">Contact Us</h2>
+                    <p class="text-center">
+                        1221 Kiwi Street <br>
+                        Auckland 1020 <br>
+                        Outside New Zealand: <br>
+                        +61 7 483 8855 <br>
+                        Inside New Zealand: <br>
+                        089 465 8855 <br>
+                    </p>
+                    <h6 class="text-center text-uppercase">mail@kiwibustours.com</h6>
+                </div>
+                <div class="col-12 col-md-7">
+                    <div class="form-row justify-content-center"> <!-- Found code for justify-content-center at https://stackoverflow.com/questions/46560362/how-to-center-form-using-bootstrap-4/46560551 -->
+				    <div class="form-group col-md-6">
+					    <label for="firstName">First Name</label>
+					    <input type="text" class="form-control elegant-form" id="firstName" name="firstName" placeholder="First Name" required>
+	                </div>
+				    <div class="form-group col-md-6">
+				    	<label for="surname">Surname</label>
+				    	<input type="text" class="form-control elegant-form" id="surname" name="surname" placeholder="Last Name" required>
+	                </div>
+				    <div class="form-group col-md-6">
+				    	<label for="emailAddress">Email Address</label>
+				    	<input type="email" class="form-control elegant-form" id="emailAddress" name="emailAddress" placeholder="Email Address" required>
+	                 </div>
+				    <div class="form-group col-md-6">
 						<label for="phone">Phone Number</label>
 						<input type="tel" class="form-control elegant-form" id="phone" name="phone" placeholder="Phone Number" required>
-	             </div>
-				<div class="form-group col-12">
-					<label for="tourSelectionForm">Which Tour Are You Interested In?</label>
-					<select class="form-control elegant-form" id="tourSelectionForm">
-						<option selected><small class="muted-text">Select...</small></option>
-						<option>North Island Tour</option>
-						<option>South Island Tour</option>
-						<option>North and South Island Tour</option>
-						<option>Customised Mini-bus Tour</option>
-					</select>
-				</div>
-				<div class="form-group col-12">
-					<label for="contactTextArea">Any other details</label>
-					<textarea class="form-control elegant-form" id="contactTextArea" name="contactTextArea" rows="5" cols="50"
-                     placeholder="Please enter any extra information; such the number of passengers travelling or any particular questions we can answer."></textarea>
-				</div>
-			</div>
-            <button type="submit" role="button" class="btn btn-green btn-lg btn-block btn-position">Submit</button>
+	                </div>
+				    <div class="form-group col-12">
+				    	<label for="tourSelectionForm">Which Tour Are You Interested In?</label>
+				    	<select class="form-control elegant-form" id="tourSelectionForm">
+				    		<option selected><small class="muted-text">Select...</small></option>
+				        		<option>North Island Tour</option>
+				    		<option>South Island Tour</option>
+				    		<option>North and South Island Tour</option>
+				    		<option>Customised Mini-bus Tour</option>
+				    	</select>
+				    </div>
+				    <div class="form-group col-12">
+				    	<label for="contactTextArea">Any other details</label>
+				    	<textarea class="form-control elegant-form" id="contactTextArea" name="contactTextArea" rows="5" cols="50"
+                         placeholder="Please enter any extra information; such the number of passengers travelling or any particular questions we can answer."></textarea>
+				        </div>
+			        </div>
+                    <button type="submit" role="button" class="btn btn-green btn-lg btn-block btn-position">Submit</button>
+                </div>
+            </div>         
 		</div>
 	</form>
    
