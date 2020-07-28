@@ -189,6 +189,13 @@ body{
     padding-bottom: 1rem;
 }
 
+    .company-details i{
+        height: 2rem;
+        width: 2rem;
+        font-size: 2rem;
+        margin: 2rem 0 -1rem;
+    }
+
 .elegant-form{
     background:transparent;
     border-color: transparent;
@@ -202,6 +209,10 @@ body{
     font-weight: 500;
 }
 
+.input-layout{
+    padding-top: 2rem;
+}
+
 .elegant-form:-webkit-autofill,
 .elegant-form:-webkit-autofill:hover,
 .elegant-form:-webkit-autofill:focus,
@@ -210,6 +221,31 @@ body{
     -webkit-text-fill-color: #fff;
     -webkit-transition-property: background-color !important;  /*found here for the technique to alter the background of autofilled inputs
      https://stackoverflow.com/questions/29580704/change-input-background-to-transparent-on-autocomplete-form */
+}
+
+@media (min-width:768px){
+    .company-details{
+        padding-top: 5rem;
+    }
+    .company-details i{
+        height: 4rem;
+        width: 4rem;
+        font-size: 4rem;
+    }
+    .input-layout{
+        padding: 3rem 2rem 2rem;
+    }
+}
+
+@media(min-width:992px){
+    .opacity{
+        padding: 1rem 0;
+    }
+
+    .input-layout{
+        padding: 3rem 6rem 2rem 2rem;
+        font-size: 1.25rem;
+    }
 }
 
 /* .inputTransparent {
@@ -254,9 +290,6 @@ body{
 .list-inline{
     display:inline-block;
 }
-
-
-/*------------General layout-------------*/
 
 
 /*--------------Typography---------------*/

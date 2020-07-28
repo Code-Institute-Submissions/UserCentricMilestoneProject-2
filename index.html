@@ -13,7 +13,7 @@
 	<header>
 		<!--navbar/toggle button, initial base code copied from bootstrap navbar components page-->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-custom" role="navigation" >
-                    <a class="navbar-brand" href="index.html"><i class="fas fa-kiwi-bird"> </i>Kiwi Bus Tours</a>
+                    <a class="navbar-brand" href="index.html"><i class="fas fa-kiwi-bird" aria-hidden="true"> </i>Kiwi Bus Tours</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavigationItems" aria-controls="navbarNavigationItems" aria-expanded="false"
 	                    aria-label="Toggle nagivation">
 	                        <span class="navbar-toggler-icon"></span>
@@ -198,9 +198,10 @@
 	<form id="contactUs" class="contact-us">
 		<div class="container-fluid opacity">
             <div class="row">
-                <div class="col-12 col-md-5">
-                    <h2 class="text-uppercase text-center" id="contactHeading">Contact Us</h2>
-                    <p class="text-center">
+                <div class="col-12 col-md-5 company-details text-center">
+                    <i class="fas fa-kiwi-bird" aria-hidden="true"></i>
+                    <h2 class="text-uppercase" id="contactHeading">Contact Us</h2>
+                    <p>
                         1221 Kiwi Street <br>
                         Auckland 1020 <br>
                         Outside New Zealand: <br>
@@ -210,7 +211,7 @@
                     </p>
                     <h6 class="text-center text-uppercase">mail@kiwibustours.com</h6>
                 </div>
-                <div class="col-12 col-md-7">
+                <div class="col-12 col-md-7 col-lg-6 input-layout">
                     <div class="form-row justify-content-center"> <!-- Found code for justify-content-center at https://stackoverflow.com/questions/46560362/how-to-center-form-using-bootstrap-4/46560551 -->
 				    <div class="form-group col-md-6">
 					    <label for="firstName">First Name</label>
