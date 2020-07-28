@@ -84,6 +84,13 @@ body{
     object-fit: cover;
 }
 
+/*-----------About-us-------------------*/
+
+.about-us{
+    padding: 60px 30px 45px;
+}
+
+
 /*-----------Tour Image Links-----------*/
 
 .tour-background{
