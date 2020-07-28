@@ -131,6 +131,18 @@ body{
     }
 }
 
+/*-----------Core-Values-------------*/
+.core-values{
+    padding: 60px 30px 30px;
+}
+
+.core-values div div i{
+    height: 3rem;
+    width: 3rem;
+    font-size: 3rem;
+}
+
+
 /*------------Buttons-------------*/
 
 .btn-green{
