@@ -95,6 +95,8 @@ body{
 
 .tour-background{
     padding:0 2rem 3rem;
+    background: #96c0ce;
+    color:#fff;
 }
 
 .tour-anchor{
@@ -151,11 +153,14 @@ body{
     font-size: 3rem;
 }
 
+.core-values div div i,h5{
+    color: #ec473f;
+}
 
 /*------------Buttons-------------*/
 
-.btn-green{
-    background-color: #27402D;
+.btn-colour{
+    background-color: #ec473f;
     color:#fff;
 }
 
@@ -369,7 +374,7 @@ p{
     font-weight: 300;
     }
 
-    .btn-green{
+    .btn-colour{
         font-weight: 500;
         padding: 0.5rem 1.25rem;
     }
