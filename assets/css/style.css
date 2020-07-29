@@ -1,5 +1,5 @@
 body{
-    background-color: #fef6eb;
+    background-color: #fff9f1;
 }
 
 /*------------Navigation-------------*/
@@ -57,7 +57,11 @@ body{
 
 /*------------Mainpage - Carousel-------------*/
 
-.carousel-container p, .carousel-container h5{
+.carousel-container blockquote p {
+    font-style: italic;
+}
+
+.carousel-container p, .carousel-container h3{
     color: #fff;
 }
 
@@ -75,6 +79,8 @@ body{
     object-fit: cover;
 }
 
+
+
 /*-----------About-us-------------------*/
 
 .about-us{
@@ -84,7 +90,7 @@ body{
 
 /*-----------Tour Image Links-----------*/
 .tour-background{
-    background: rgb(254,246,235);
+    background: #fdf3e7;
     background: linear-gradient(1deg, rgba(254,246,235,1) 0%, rgba(228,218,205,1) 10%, rgba(228,218,205,1) 91%, rgba(254,246,235,1) 100%);
 }
 
@@ -384,12 +390,6 @@ p{
     .hero-text p{
         font-size: 1.5rem;
     }
-    
-    .intro-text h2{
-        font-size: 2.5rem;
-        font-weight: 300;
-    }
-
 
     .tour-textbox h2{
         font-size: 2.5rem;
@@ -430,6 +430,25 @@ p{
         height: 400px;
     }
 
+}
+
+@media (min-width:992px){
+
+    p{
+        line-height: 1.7;
+    }
+
+    .mainpage-inner .carousel-item{
+        height: 30rem;
+    }
+
+    .carousel-container blockquote p {
+        font-size:1.5rem
+    }
+
+    .carousel-container p, .carousel-container h3{
+        font-size: 2.25rem;
+    }
 }
 /*
 button for later{
