@@ -338,6 +338,10 @@ p{
     top: 20%
 }
 
+.tour-intro h2{
+    color: #fff
+}
+
 .tour-banner-container img{
     height: 400px;
     object-fit: cover;
@@ -345,9 +349,24 @@ p{
     width: fit-content;
 }
 
+@media(min-width:768px){
+    .tour-intro{
+        height:80vh;
+    }
+
+    .tour-intro .intro-text{
+        top: 25%
+    }
+
+    .tour-intro h2{
+        font-size: 3.5rem;
+    }
+}
+
 /*-----------Tours: Key-details--------------*/
 .key-details{
-    margin: 3rem 0rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .key-details i{ 
@@ -356,6 +375,13 @@ p{
     font-size: 3rem;
     margin-top: 1em;
     margin-bottom:-1rem;
+}
+
+@media(min-width:768px){
+    .key-details{
+        margin-top: 1rem;
+        margin-bottom:3rem;
+    }
 }
 
 /*-----------Tours: Comms Panel--------------*/
@@ -383,6 +409,15 @@ p{
     color: #fff;
  }
 
+@media (min-width:768px){
+    .comms-panel-text{
+        top: 20%;
+    }
+    
+}
+
+ /*------------------Tour-itinerary----------*/
+
  .tour-heading{
      padding: 3rem 1rem;
  }
@@ -395,15 +430,7 @@ p{
 .day-itinerary i{
     color: #ec473f;
     padding:0.5rem;
-    opacity: 0.5;
-
 }
-
-
-
-
-
-
 
 .tourpage-carousel{
     margin: 0;
