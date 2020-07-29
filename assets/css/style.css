@@ -1,5 +1,6 @@
 body{
     background-color: #fff9f1;
+    /* maybe lighter version of #646461 */
 }
 
 /*------------Navigation-------------*/
@@ -138,7 +139,7 @@ body{
 
 @media (min-width:992px){
     .tour-background{
-        padding: 1rem;
+        padding: 1rem 4rem;
     }
     
     .tour-anchor{
@@ -315,11 +316,38 @@ p{
 }
 
 /*------------Tour itineraries-------------*/
-.tourhero-image img{
-   height: 20rem;
-   width: 100%;
-   object-fit: cover; /* suggested by https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-not-stretch/43001159 for use of object -fit cover */
+
+.tour-intro{
+   background-image: url("../images/southday6.1.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-top:2rem;
+   height: 96vh;
 }
+.tour-intro .intro-text{
+    position: absolute;
+    top: 20%
+}
+
+.tour-banner-container img{
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .price-header{
     font-size: 2rem;
     margin-top: 1.5rem;
