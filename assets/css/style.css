@@ -167,7 +167,10 @@ body{
 
 .btn-colour{
     background-color: #ec473f;
-    color:#fff;
+    color: #fff;
+    max-width: 15rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .btn-position{
@@ -221,6 +224,10 @@ body{
 
 .input-layout{
     padding-top: 2rem;
+}
+.input-layout .btn-colour{
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .elegant-form:-webkit-autofill,
