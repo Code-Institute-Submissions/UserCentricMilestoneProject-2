@@ -341,7 +341,7 @@ p{
   }
  .comms-panel img{
      position: relative;
-     height: 25rem;
+     height: 30rem;
      object-fit: cover;
      z-index: -1;
  }
@@ -350,9 +350,17 @@ p{
      position: absolute;
      top: 5%;
  } 
+
+  .comms-panel-text .btn-colour{
+      margin-top: 1.5rem;
+ } 
  
  .comms-panel-text h3, .comms-panel-text p{
     color: #fff;
+ }
+
+ .tour-heading{
+     padding: 1rem;
  }
 
 
@@ -365,14 +373,6 @@ p{
 
 
 
-.price-header{
-    font-size: 2rem;
-    margin-top: 1.5rem;
-}
-
-.tour-image-group{
-    padding-bottom: 1rem;
-}
 
 .tour-itinerary{
     padding-bottom: 1rem;
@@ -395,10 +395,6 @@ p{
 .tourpage-inner .carousel-item img{
     height: 100%;
     object-fit: cover;
-}
-
-.event-style h4{
-    font-weight: bold;
 }
 
 
