@@ -333,6 +333,8 @@ p{
 .tour-banner-container img{
     height: 400px;
     object-fit: cover;
+    object-position: 10% 20%;
+    width: fit-content;
 }
 
 /*-----------Tours: Comms Panel--------------*/
