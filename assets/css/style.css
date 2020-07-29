@@ -344,6 +344,19 @@ p{
     width: fit-content;
 }
 
+/*-----------Tours: Key-details--------------*/
+.key-details{
+    margin: 3rem 0rem;
+}
+
+.key-details i{ 
+    height: 3rem;
+    width: 3rem;
+    font-size: 3rem;
+    margin-top: 1em;
+    margin-bottom:-1rem;
+}
+
 /*-----------Tours: Comms Panel--------------*/
   .img-opacity{
       background-color: rgba(0, 0, 0, 0.25);
