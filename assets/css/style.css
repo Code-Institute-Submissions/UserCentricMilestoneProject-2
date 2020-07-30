@@ -326,13 +326,12 @@ p{
 
 /*------------Tour itineraries-------------*/
 
-.tour-intro{
-   background-image: url("../images/southday6.1.jpg");
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
+.tour-intro img{
+   position: relative;
+   object-fit: cover;
    margin-top:2rem;
    height: 96vh;
+   width: fit-content;
 }
 .tour-intro .intro-text{
     position: absolute;
@@ -351,7 +350,7 @@ p{
 }
 
 @media(min-width:768px){
-    .tour-intro{
+    .tour-intro img{
         height:80vh;
     }
 
