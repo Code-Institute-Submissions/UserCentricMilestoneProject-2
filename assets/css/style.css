@@ -364,13 +364,6 @@ p{
     }
 }
 
-@media(min-width:992px){
-    .tour-itinerary{
-        padding-top:4rem;
-        padding-bottom: 4rem;
-    }
-}
-
 /*-----------Tours: Key-details--------------*/
 .key-details{
     margin-top: 3rem;
