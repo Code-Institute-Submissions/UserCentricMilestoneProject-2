@@ -3,6 +3,7 @@ body{
     /* maybe lighter version of #646461 */
 }
 
+/* previous red colour #ec473f */
 /*------------Navigation-------------*/
 .bg-custom{
     background-color: rgba(24,41,64,1);
@@ -419,12 +420,14 @@ p{
 /*------------------Tours: Route-inclusions--------*/
 .route-inclusions{
     background: #74828F;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     padding-bottom: 2rem;
 }
 
 .route-inclusions .inclusions{
     max-width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .inclusions, .inclusions h3{
@@ -439,7 +442,7 @@ p{
 /* This code for creation of different colour/styled bullet points was found from a tutorial at https://www.w3schools.com/howto/howto_css_bullet_color.asp -- */
 .inclusions ul li::before{
     content: "\2022";
-    color:#f0160b;
+    color:#f0160b; 
     font-weight: bold;
     display: inline-block;
     width: 1rem;
