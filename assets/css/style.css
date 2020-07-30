@@ -160,13 +160,13 @@ body{
     height: 3rem;
     width: 3rem;
     font-size: 3rem;
-    color: #ec473f;
+    color: #f0160b;
 }
 
 /*------------Buttons-------------*/
 
 .btn-colour{
-    background-color: #ec473f;
+    background-color: #f0160b;
     color: #fff;
     max-width: 15rem;
     margin-left: 1rem;
@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Exo", sans-serif;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
-    color: #ec473f;
+    color: #f0160b;
 }
 
 p{
@@ -416,6 +416,37 @@ p{
     
 }
 
+/*------------------Tours: Route-inclusions--------*/
+.route-inclusions{
+    background: #74828F;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.route-inclusions .inclusions{
+    max-width: 100%;
+}
+
+.inclusions, .inclusions h3{
+    color: #fff9f1;
+}
+
+/* This code for creation of different colour/styled bullet points was found from a tutorial at https://www.w3schools.com/howto/howto_css_bullet_color.asp -- */
+.inclusions ul{
+    list-style:none;
+}
+
+/* This code for creation of different colour/styled bullet points was found from a tutorial at https://www.w3schools.com/howto/howto_css_bullet_color.asp -- */
+.inclusions ul li::before{
+    content: "\2022";
+    color:#f0160b;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1rem;
+}
+
+
  /*------------------Tour-itinerary----------*/
 
  .tour-heading{
@@ -428,7 +459,7 @@ p{
 }
 
 .day-itinerary i{
-    color: #ec473f;
+    color: #f0160b;
     padding:0.5rem;
 }
 
