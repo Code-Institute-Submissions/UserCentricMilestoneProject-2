@@ -472,6 +472,7 @@ p{
 @media(min-width:992px){
     .route-inclusions{
         height: 750px;
+        padding-top: 0;
     }
     .inclusions{
         margin-top: 2rem;
