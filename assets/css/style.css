@@ -59,22 +59,22 @@ body{
 
 
 /*------------Mainpage - Carousel-------------*/
+.mainpage-carousel{
+    margin: 1rem;
+}
 
-.carousel-container blockquote p {
+.mainpage-carousel .blockquote{
+    background-color:rgba(45, 59, 71, 0.7);
+}
+
+.mainpage-carousel .blockquote p{
+    color: #fff9f1;
     font-style: italic;
 }
 
-.carousel-container p, .carousel-container h3{
-    color: #fff9f1;
-}
-
-.carousel-dimensions.mainpage-carousel{
-    padding-bottom: 1rem;
-    margin-top:1rem;
-}
 
 .mainpage-inner .carousel-item {
-    height: 300px;
+    height: 20rem;
 }
 
 .mainpage-inner .carousel-item img{
@@ -608,16 +608,20 @@ p{
         line-height: 1.7;
     }
 
+    .mainpage-carousel{
+        margin: 4rem 4rem 6rem;
+    }
+
     .mainpage-inner .carousel-item{
-        height: 30rem;
+        height: 40rem;
     }
 
-    .carousel-container blockquote p {
-        font-size:1.5rem
+    .mainpage-carousel .blockquote p {
+        font-size:3rem;
     }
 
-    .carousel-container p, .carousel-container h3{
-        font-size: 2.25rem;
+    .mainpage-carousel .blockquote-footer{
+        font-size: 1.5rem;
     }
 
 
