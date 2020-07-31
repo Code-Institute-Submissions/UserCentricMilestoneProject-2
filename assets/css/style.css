@@ -82,6 +82,13 @@ body{
     object-fit: cover;
 }
 
+/* Code used to fix this found on stack overflow: https://stackoverflow.com/questions/47235256/bootstrap-4-change-the-carousel-indicators-into-dots?rq=1 */
+.carousel-indicators li{
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
 
 
 /*-----------About-us-------------------*/
@@ -537,7 +544,7 @@ p{
 }
 
 .tourpage-carousel{
-    margin: 0;
+    margin: 1rem;
     padding: 0;
 }
 
@@ -621,7 +628,7 @@ p{
     }
 
     .tourpage-inner .carousel-item{
-        height: 400px;
+        height: 25rem;
     }
 
 }
