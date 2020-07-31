@@ -194,7 +194,6 @@ body{
 }
 
 /*------------Buttons-------------*/
-
 .btn-colour{
     background-color: #f0160b;
     color: #fff9f1;
@@ -209,6 +208,11 @@ body{
 
 .btn-bottom-page{
        margin-top: 2rem;
+}
+
+.btn:hover{
+    background-color: #bd0900;
+    color: #fff9f1;
 }
 
 /*------------Contact Us-------------*/
