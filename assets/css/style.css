@@ -20,24 +20,20 @@ body {
 
 .hero-image {
     /* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ to set location to root folder and find images */
-	background: url("../images/southday3.1.jpg");
-	height: 90vh;
+	background-image: url("../images/southday3.1.jpg");
+    background-color: rgba(0, 0, 0, 0.25);
+    background-blend-mode: multiply;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+    height: 90vh;
 	margin-top: 3.5rem;
 }
 
-.hero-image-opacity {
-	background-color: rgba(0, 0, 0, 0.25);
-	height: inherit;
-}
-
 .hero-text {
-	top: 45%;
+	padding: 5rem 0;
     /*Adds slight border around headings to make them more visible; found suggestion at https://wpshout.com/quick-guides/create-text-outline-css/ */
 	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.25), 1px -1px 0 rgba(0, 0, 0, 0.25), -1px 1px 0 rgba(0, 0, 0, 0.25), 1px 1px 0 rgba(0, 0, 0, 0.25);
-	height: 20rem;
 }
 
 .hero-text h1 {
@@ -47,7 +43,7 @@ body {
 	font-size: 3rem;
 }
 
-.hero-text p {
+.hero-text h3 {
 	font-family: "Exo", sans-serif;
 	font-weight: 400;
 	color: #fff9f1;
@@ -185,17 +181,15 @@ body {
 
 /*------------Contact Us-------------*/
 .contact-us {
+    background-color: rgba(1, 1, 1, 0.7);
 	background-image: url("../images/contactusbackground.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+    background-blend-mode: multiply;
 	margin-top: 1rem;
-}
-/*Adds a darker shade over contact form to make text easier to read*/
-.opacity {
-	background-color: rgba(1, 1, 1, 0.7);
-	color: #fff9f1;
-	padding-top: 0.1rem;
+    color: #fff9f1;
+    padding-top: 0.1rem;
 	padding-bottom: 1rem;
 }
 
@@ -293,17 +287,19 @@ p {
 /*-------------------Tour Pages----------------*/
 
 /*-------------Header----------------*/
-.tour-intro img {
-	position: relative;
-	object-fit: cover;
-	margin-top: 2rem;
+
+
+.tour-intro{
+    background-image: url("../images/southday6.1.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	height: 96vh;
-	width: fit-content;
+    margin-top: 2rem;
 }
 
 .tour-intro .intro-text {
-	position: absolute;
-	top: 20%
+	top: 40%
 }
 
 .tour-intro h2 {
@@ -504,12 +500,12 @@ p {
 		padding: 0.5rem 1.25rem;
 	}
 
-    .tour-intro img {
+    .tour-intro {
 		height: 80vh;
 	}
 
 	.tour-intro .intro-text {
-		top: 25%
+		top: 50%
 	}
 
 	.tour-intro h2 {
@@ -542,6 +538,10 @@ p {
 		line-height: 1.7;
 	}
 
+    .hero-text h1 {
+		font-size: 6rem;
+	}
+
     .tour-anchor {
 		padding: 2rem 2rem;
 	}
@@ -570,10 +570,6 @@ p {
 		height: 40rem;
 	}
 
-    .opacity {
-		padding: 1rem 0;
-	}
-
 	.input-layout {
 		padding: 3rem 6rem 2rem 2rem;
 		font-size: 1.25rem;
@@ -594,6 +590,11 @@ p {
 		margin-top: 1rem;
 		padding-bottom: 0;
 	}
+
+    .tour-intro .intro-text {
+		top: 100%
+	}
+
 	.tour-route-img {
 		height: 700px;
 	}
