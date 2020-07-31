@@ -1,319 +1,333 @@
-body{
-    background-color: #fff9f1;
-    /* maybe lighter version of #646461 */
+body {
+	background-color: #fff9f1;
+	/* maybe lighter version of #646461 */
 }
 
+
 /* previous red colour #ec473f */
+
+
 /*------------Navigation-------------*/
-.bg-custom{
-    background-color: rgba(24,41,64,1);
+
+.bg-custom {
+	background-color: rgba(24, 41, 64, 1);
 }
 
 .dropdown-item {
-    color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.5);
 }
 
-.dropdown-item.active{
-    background-color: transparent;
+.dropdown-item.active {
+	background-color: transparent;
 }
 
-.fa-kiwi-bird{
-    padding-right:10px;
+.fa-kiwi-bird {
+	padding-right: 10px;
 }
+
+
 /*------------Header-------------*/
 
 .hero-image {
-    background: url("../images/southday3.1.jpg");
-     /* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ to set location to root folder and find images */
-
-    height: 90vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 3.5rem;
-}
-.hero-image-opacity{
-    background-color: rgba(0,0,0,0.25);
-    height: inherit;
+	background: url("../images/southday3.1.jpg");
+	/* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ to set location to root folder and find images */
+	height: 90vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 3.5rem;
 }
 
-.hero-text{
-    top: 45%;
-    text-shadow: -1px -1px 0 rgba(0,0,0,0.25), 1px -1px 0 rgba(0,0,0,0.25),-1px 1px 0 rgba(0,0,0,0.25), 1px 1px 0 rgba(0,0,0,0.25);
-    height: 20rem;
+.hero-image-opacity {
+	background-color: rgba(0, 0, 0, 0.25);
+	height: inherit;
 }
 
-.hero-text h1{
-    font-family: "Exo", sans-serif;
-    color: #fff9f1;
-    font-weight: 600;
-    font-size: 3rem;
+.hero-text {
+	top: 45%;
+	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.25), 1px -1px 0 rgba(0, 0, 0, 0.25), -1px 1px 0 rgba(0, 0, 0, 0.25), 1px 1px 0 rgba(0, 0, 0, 0.25);
+	height: 20rem;
 }
 
-.hero-text p{
-    font-family: "Exo", sans-serif;
-    font-weight: 400;
-    color:#fff9f1;
-    text-shadow: -1px -1px 0 rgba(0,0,0,0.25), 1px -1px 0 rgba(0,0,0,0.25),-1px 1px 0 rgba(0,0,0,0.25), 1px 1px 0 rgba(0,0,0,0.25);
+.hero-text h1 {
+	font-family: "Exo", sans-serif;
+	color: #fff9f1;
+	font-weight: 600;
+	font-size: 3rem;
+}
+
+.hero-text p {
+	font-family: "Exo", sans-serif;
+	font-weight: 400;
+	color: #fff9f1;
+	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.25), 1px -1px 0 rgba(0, 0, 0, 0.25), -1px 1px 0 rgba(0, 0, 0, 0.25), 1px 1px 0 rgba(0, 0, 0, 0.25);
 }
 
 
 /*------------Mainpage - Carousel-------------*/
-.mainpage-carousel{
-    margin: 1rem;
+
+.mainpage-carousel {
+	margin: 1rem;
 }
 
-.mainpage-carousel .blockquote{
-    background-color:rgba(45, 59, 71, 0.7);
+.mainpage-carousel .blockquote {
+	background-color: rgba(45, 59, 71, 0.7);
 }
 
-.mainpage-carousel .blockquote p{
-    color: #fff9f1;
-    font-style: italic;
+.mainpage-carousel .blockquote p {
+	color: #fff9f1;
+	font-style: italic;
 }
-
 
 .mainpage-inner .carousel-item {
-    height: 20rem;
+	height: 20rem;
 }
 
-.mainpage-inner .carousel-item img{
-    height: 100%;
-    object-fit: cover;
+.mainpage-inner .carousel-item img {
+	height: 100%;
+	object-fit: cover;
 }
+
 
 /* Code used to fix this found on stack overflow: https://stackoverflow.com/questions/47235256/bootstrap-4-change-the-carousel-indicators-into-dots?rq=1 */
-.carousel-indicators li{
-    border-radius: 50%;
-    height: 10px;
-    width: 10px;
-}
 
+.carousel-indicators li {
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
+}
 
 
 /*-----------About-us-------------------*/
 
-.about-text{
-    padding: 60px 30px 45px;
+.about-text {
+	padding: 60px 30px 45px;
 }
 
-.about-img{
-    height:38.5rem;
+.about-img {
+	height: 38.5rem;
 }
 
 
 /*-----------Tour Image Links-----------*/
-.tour-background{
-    background: #fdf3e7;
-    background: linear-gradient(1deg, rgba(254,246,235,1) 0%, rgba(228,218,205,1) 10%, rgba(228,218,205,1) 91%, rgba(254,246,235,1) 100%);
+
+.tour-background {
+	background: #fdf3e7;
+	background: linear-gradient(1deg, rgba(254, 246, 235, 1) 0%, rgba(228, 218, 205, 1) 10%, rgba(228, 218, 205, 1) 91%, rgba(254, 246, 235, 1) 100%);
 }
 
-.tour-textbox h2, .tour-textbox p{
-    color: #fff9f1;
+.tour-textbox h2,
+.tour-textbox p {
+	color: #fff9f1;
 }
 
-.tour-anchor{
-    padding: 0px;
+.tour-anchor {
+	padding: 0px;
 }
 
-.tour-anchor a{
-    display: block;
+.tour-anchor a {
+	display: block;
 }
 
-.tour-anchor-style{
-    object-fit: cover;
-    box-shadow: 6px 8px 12px 2px rgba(0,0,0,0.3);
-    height: 11rem;
+.tour-anchor-style {
+	object-fit: cover;
+	box-shadow: 6px 8px 12px 2px rgba(0, 0, 0, 0.3);
+	height: 11rem;
 }
 
 .tour-title {
-    font-family:"Exo", sans-serif;
-    position: absolute;
-    text-align: center;
-    top:70%;
-    left: 50%;
-    width: 90%;
-    transform: translate(-50%,-50%);  /* fix found at https://www.w3schools.com/howto/howto_css_image_text.asp for image positioning*/
-    text-shadow: -1px -1px 0 rgba(0,0,0,0.25), 1px -1px 0 rgba(0,0,0,0.25),-1px 1px 0 rgba(0,0,0,0.25), 1px 1px 0 rgba(0,0,0,0.25);
+	font-family: "Exo", sans-serif;
+	position: absolute;
+	text-align: center;
+	top: 70%;
+	left: 50%;
+	width: 90%;
+	transform: translate(-50%, -50%);
+	/* fix found at https://www.w3schools.com/howto/howto_css_image_text.asp for image positioning*/
+	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.25), 1px -1px 0 rgba(0, 0, 0, 0.25), -1px 1px 0 rgba(0, 0, 0, 0.25), 1px 1px 0 rgba(0, 0, 0, 0.25);
 }
 
-.tour-title h3{
-    color: #fff9f1;
-    margin: 0;
+.tour-title h3 {
+	color: #fff9f1;
+	margin: 0;
 }
+
 
 /* Instructions for making arrows found at https://www.w3schools.com/howto/howto_css_arrows.asp on their online tutorial*/
-.arrow{
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    margin: 2px;
+
+.arrow {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	margin: 2px;
 }
 
-.right{
-    transform: rotate(-45deg);
+.right {
+	transform: rotate(-45deg);
 }
 
-.down{
-    transform: rotate(45deg);
+.down {
+	transform: rotate(45deg);
 }
 
-
-.tour-anchor a:hover{
-    opacity: 0.7;
+.tour-anchor a:hover {
+	opacity: 0.7;
 }
 
-@media (min-width:768px){
-    .tour-anchor{
-        padding: 3rem 1rem 2rem;
-    }
-
-    .tour-anchor-style{
-        height:25rem;
-    }
+@media (min-width:768px) {
+	.tour-anchor {
+		padding: 3rem 1rem 2rem;
+	}
+	.tour-anchor-style {
+		height: 25rem;
+	}
 }
 
-@media (min-width:992px){
-    .tour-background{
-        padding: 1rem 4rem;
-    }
-    
-    .tour-anchor{
-        padding: 2rem 2rem;
-    }
-
-    .tour-anchor-style{
-        height:600px;
-    }
+@media (min-width:992px) {
+	.tour-background {
+		padding: 1rem 4rem;
+	}
+	.tour-anchor {
+		padding: 2rem 2rem;
+	}
+	.tour-anchor-style {
+		height: 600px;
+	}
 }
+
 
 /*-----------Core-Values-------------*/
-.core-values{
-    padding: 60px 30px 30px;
+
+.core-values {
+	padding: 60px 30px 30px;
 }
 
-.core-values div div i{
-    height: 3rem;
-    width: 3rem;
-    font-size: 3rem;
-    color: #f0160b;
+.core-values div div i {
+	height: 3rem;
+	width: 3rem;
+	font-size: 3rem;
+	color: #f0160b;
 }
+
 
 /*------------Buttons-------------*/
-.btn-colour{
-    background-color: #f0160b;
-    color: #fff9f1;
-    max-width: 15rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+
+.btn-colour {
+	background-color: #f0160b;
+	color: #fff9f1;
+	max-width: 15rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
-.btn-position{
-    margin-bottom: 1.5rem;
+.btn-position {
+	margin-bottom: 1.5rem;
 }
 
-.btn-bottom-page{
-       margin-top: 2rem;
+.btn-bottom-page {
+	margin-top: 2rem;
 }
 
-.btn:hover{
-    background-color: #bd0900;
-    color: #fff9f1;
+.btn:hover {
+	background-color: #bd0900;
+	color: #fff9f1;
 }
+
 
 /*------------Contact Us-------------*/
-.contact-us{
-    background-image: url("../images/contactusbackground.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-top: 1rem;
+
+.contact-us {
+	background-image: url("../images/contactusbackground.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top: 1rem;
 }
 
-.opacity{
-    background-color: rgba(1,1,1,0.7);
-    height: inherit;
-    color: #fff9f1;
-    padding-top: 0.1rem;
-    padding-bottom: 1rem;
+.opacity {
+	background-color: rgba(1, 1, 1, 0.7);
+	height: inherit;
+	color: #fff9f1;
+	padding-top: 0.1rem;
+	padding-bottom: 1rem;
 }
 
-.company-details i{
-    height: 2rem;
-    width: 2rem;
-    font-size: 2rem;
-    margin: 2rem 0 -1rem;
+.company-details i {
+	height: 2rem;
+	width: 2rem;
+	font-size: 2rem;
+	margin: 2rem 0 -1rem;
 }
 
-.elegant-form{
-    background:transparent;
-    border-color: transparent;
-    border-bottom-color: #fff9f1;
-    border-bottom-style: solid;
-    color: #fff9f1;
-    padding-left: 0;
+.elegant-form {
+	background: transparent;
+	border-color: transparent;
+	border-bottom-color: #fff9f1;
+	border-bottom-style: solid;
+	color: #fff9f1;
+	padding-left: 0;
 }
 
-.contact-us label{
-    font-weight: 500;
+.contact-us label {
+	font-weight: 500;
 }
 
-.contact-us h6{
-    color: #fff9f1;
+.contact-us h6 {
+	color: #fff9f1;
 }
 
-.input-layout{
-    padding-top: 2rem;
+.input-layout {
+	padding-top: 2rem;
 }
-.input-layout .btn-colour{
-    margin-left: 0;
-    margin-right: 0;
+
+.input-layout .btn-colour {
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .elegant-form:-webkit-autofill,
 .elegant-form:-webkit-autofill:hover,
 .elegant-form:-webkit-autofill:focus,
-.elegant-form:-webkit-autofill:active{
-    transition: background-color 5000s;
-    -webkit-text-fill-color: #fff9f1;
-    -webkit-transition-property: background-color !important;  /*found here for the technique to alter the background of autofilled inputs
+.elegant-form:-webkit-autofill:active {
+	transition: background-color 5000s;
+	-webkit-text-fill-color: #fff9f1;
+	-webkit-transition-property: background-color !important;
+	/*found here for the technique to alter the background of autofilled inputs
      https://stackoverflow.com/questions/29580704/change-input-background-to-transparent-on-autocomplete-form */
 }
 
-.form-warning{
-    font-size: 0.8rem;
+.form-warning {
+	font-size: 0.8rem;
 }
 
-@media (min-width:768px){
-    .company-details{
-        padding-top: 2rem;
-    }
-    .company-details i{
-        height: 4rem;
-        width: 4rem;
-        font-size: 4rem;
-    }
-    .input-layout{
-        padding: 3rem 2rem 2rem;
-    }
+@media (min-width:768px) {
+	.company-details {
+		padding-top: 2rem;
+	}
+	.company-details i {
+		height: 4rem;
+		width: 4rem;
+		font-size: 4rem;
+	}
+	.input-layout {
+		padding: 3rem 2rem 2rem;
+	}
 }
 
-@media(min-width:992px){
-    .opacity{
-        padding: 1rem 0;
-    }
-
-    .input-layout{
-        padding: 3rem 6rem 2rem 2rem;
-        font-size: 1.25rem;
-    }
-
-    .form-warning{
-         font-size: 1rem;
-    }
-
+@media(min-width:992px) {
+	.opacity {
+		padding: 1rem 0;
+	}
+	.input-layout {
+		padding: 3rem 6rem 2rem 2rem;
+		font-size: 1.25rem;
+	}
+	.form-warning {
+		font-size: 1rem;
+	}
 }
+
 
 /* .inputTransparent {
     border: 1px solid black;
@@ -326,6 +340,7 @@ body{
     -webkit-transition-property: background-color !important;
 } */
 
+
 /* .inputTransparent:-webkit-autofill,
 .inputTransparent:-webkit-autofill:hover,
 .inputTransparent:-webkit-autofill:focus,
@@ -334,345 +349,340 @@ body{
    -webkit-transition-property: background-color !important;
  } */
 
+
 /*------------Footer-------------*/
 
 .footer p {
-    font-family: "Exo", sans-serif;
-    color:#fff9f1;
-    padding-left: 10px;
+	font-family: "Exo", sans-serif;
+	color: #fff9f1;
+	padding-left: 10px;
 }
 
-.social-links li{
-    padding: 0 0.25rem;
+.social-links li {
+	padding: 0 0.25rem;
 }
 
-.social-links li a i{
-    color: #fff9f1;
-    height: 2rem;
-    width: 2rem;
-    font-size: 2rem;
-    padding: 0.5rem;
+.social-links li a i {
+	color: #fff9f1;
+	height: 2rem;
+	width: 2rem;
+	font-size: 2rem;
+	padding: 0.5rem;
 }
 
-.list-inline{
-    display:inline-block;
+.list-inline {
+	display: inline-block;
 }
 
 
 /*--------------Typography---------------*/
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Exo", sans-serif;
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-    color: #f0160b;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Exo", sans-serif;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+	color: #f0160b;
 }
 
-p{
-    font-family: "Lato", sans-serif;
-    line-height: 1.6;
+p {
+	font-family: "Lato", sans-serif;
+	line-height: 1.6;
 }
 
-@media (min-width:768px){
-    p{
-        font-size: 1.2rem;
-    }
+@media (min-width:768px) {
+	p {
+		font-size: 1.2rem;
+	}
 }
+
 
 /*------------Tour itineraries-------------*/
 
-.tour-intro img{
-   position: relative;
-   object-fit: cover;
-   margin-top:2rem;
-   height: 96vh;
-   width: fit-content;
-}
-.tour-intro .intro-text{
-    position: absolute;
-    top: 20%
+.tour-intro img {
+	position: relative;
+	object-fit: cover;
+	margin-top: 2rem;
+	height: 96vh;
+	width: fit-content;
 }
 
-.tour-intro h2{
-    color: #fff9f1
+.tour-intro .intro-text {
+	position: absolute;
+	top: 20%
 }
 
-.tour-banner-container img{
-    height: 400px;
-    object-fit: cover;
-    object-position: 10% 20%;
-    width: fit-content;
+.tour-intro h2 {
+	color: #fff9f1
 }
 
-@media(min-width:768px){
-    .tour-intro img{
-        height:80vh;
-    }
-
-    .tour-intro .intro-text{
-        top: 25%
-    }
-
-    .tour-intro h2{
-        font-size: 3.5rem;
-    }
+.tour-banner-container img {
+	height: 400px;
+	object-fit: cover;
+	object-position: 10% 20%;
+	width: fit-content;
 }
+
+@media(min-width:768px) {
+	.tour-intro img {
+		height: 80vh;
+	}
+	.tour-intro .intro-text {
+		top: 25%
+	}
+	.tour-intro h2 {
+		font-size: 3.5rem;
+	}
+}
+
 
 /*-----------Tours: Key-details--------------*/
-.key-details{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+
+.key-details {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
 
-.key-details i{ 
-    height: 3rem;
-    width: 3rem;
-    font-size: 3rem;
-    margin-top: 1em;
-    margin-bottom:-1rem;
+.key-details i {
+	height: 3rem;
+	width: 3rem;
+	font-size: 3rem;
+	margin-top: 1em;
+	margin-bottom: -1rem;
 }
 
-@media(min-width:768px){
-    .key-details{
-        margin-top: 1rem;
-        margin-bottom:3rem;
-    }
+@media(min-width:768px) {
+	.key-details {
+		margin-top: 1rem;
+		margin-bottom: 3rem;
+	}
 }
+
 
 /*-----------Tours: Comms Panel--------------*/
-  .img-opacity{
-      background-color: rgba(0, 0, 0, 0.25);
-  }
- .comms-panel img{
-     position: relative;
-     height: 30rem;
-     width: fit-content;
-     object-fit: cover;
-     z-index: -1;
- }
 
- .comms-panel-text{
-     position: absolute;
-     top: 5%;
- } 
-
-  .comms-panel-text .btn-colour{
-      margin-top: 1.5rem;
- } 
- 
- .comms-panel-text h3, .comms-panel-text p{
-    color: #fff9f1;
- }
-
-@media (min-width:768px){
-    .comms-panel-text{
-        top: 20%;
-    }    
+.img-opacity {
+	background-color: rgba(0, 0, 0, 0.25);
 }
 
-@media (min-width:992px){
-    .comms-panel img{
-        height: 35rem;
-    }
-    .comms-panel-text p{
-        font-size: 1.25rem;
-    }
+.comms-panel img {
+	position: relative;
+	height: 30rem;
+	width: fit-content;
+	object-fit: cover;
+	z-index: -1;
 }
+
+.comms-panel-text {
+	position: absolute;
+	top: 5%;
+}
+
+.comms-panel-text .btn-colour {
+	margin-top: 1.5rem;
+}
+
+.comms-panel-text h3,
+.comms-panel-text p {
+	color: #fff9f1;
+}
+
+@media (min-width:768px) {
+	.comms-panel-text {
+		top: 20%;
+	}
+}
+
+@media (min-width:992px) {
+	.comms-panel img {
+		height: 35rem;
+	}
+	.comms-panel-text p {
+		font-size: 1.25rem;
+	}
+}
+
 
 /*------------------Tours: Route-inclusions--------*/
-.route-inclusions{
-    background: #74828F;
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: multiply;
-    padding-top: 1.5rem;
-    padding-bottom: 2rem;
+
+.route-inclusions {
+	background: #74828F;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+	padding-top: 1.5rem;
+	padding-bottom: 2rem;
 }
 
-.route-inclusions .inclusions{
-    max-width: 100%;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+.route-inclusions .inclusions {
+	max-width: 100%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 
-.inclusions, .inclusions h3{
-    color: #fff9f1;
+.inclusions,
+.inclusions h3 {
+	color: #fff9f1;
 }
+
 
 /* This code for creation of different colour/styled bullet points was found from a tutorial at https://www.w3schools.com/howto/howto_css_bullet_color.asp -- */
-.inclusions ul{
-    list-style:none;
+
+.inclusions ul {
+	list-style: none;
 }
+
 
 /* This code for creation of different colour/styled bullet points was found from a tutorial at https://www.w3schools.com/howto/howto_css_bullet_color.asp -- */
-.inclusions ul li::before{
-    content: "\2022";
-    color:#f0160b; 
-    font-weight: bold;
-    display: inline-block;
-    width: 1rem;
-    margin-left: -1rem;
+
+.inclusions ul li::before {
+	content: "\2022";
+	color: #f0160b;
+	font-weight: bold;
+	display: inline-block;
+	width: 1rem;
+	margin-left: -1rem;
 }
 
-@media(min-width:768px){
-    .tour-route-img{
-        height: 600px;
-        object-fit: cover;
-        padding-top: 3rem;
-    }
+@media(min-width:768px) {
+	.tour-route-img {
+		height: 600px;
+		object-fit: cover;
+		padding-top: 3rem;
+	}
 }
 
-@media(min-width:992px){
-    
-    .inclusions{
-        margin-top: 1rem;
-        padding-bottom: 0;
-    }
-    .tour-route-img{
-        height: 700px;
-    }
+@media(min-width:992px) {
+	.inclusions {
+		margin-top: 1rem;
+		padding-bottom: 0;
+	}
+	.tour-route-img {
+		height: 700px;
+	}
 }
 
 
- /*------------------Tour-itinerary----------*/
+/*------------------Tour-itinerary----------*/
 
- .tour-heading{
-     padding: 3rem 1rem;
- }
-
-.tour-itinerary{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+.tour-heading {
+	padding: 3rem 1rem;
 }
 
-.day-itinerary i{
-    color: #f0160b;
-    padding:0.5rem;
+.tour-itinerary {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
-.tourpage-carousel{
-    margin: 1rem;
-    padding: 0;
+.day-itinerary i {
+	color: #f0160b;
+	padding: 0.5rem;
+}
+
+.tourpage-carousel {
+	margin: 1rem;
+	padding: 0;
 }
 
 .tourpage-inner .carousel-item {
-    height: 300px;
+	height: 300px;
 }
 
-.tourpage-inner .carousel-item img{
-    height: 100%;
-    object-fit: cover;
+.tourpage-inner .carousel-item img {
+	height: 100%;
+	object-fit: cover;
 }
-
 
 
 /*-------------- Media Queries---------------*/
 
-@media (min-width: 768px){
-    
-    h3{
-        font-size: 2rem;
-        font-weight: 500;
-    }
-
-    h2 {
-        font-weight: 600;
-        font-size: 2.5rem;
-    }
-
-    .navbar-brand,.nav-link{
-        font-size: 1.25rem;
-    }
-
-    .hero-image{
-        height: 40rem;
-    }
-
-    .hero-text{
-        top: 50%; 
-    }
-    .hero-text h1{
-        font-size:4.5rem;
-    }
-
-    .hero-text p{
-        font-size: 1.5rem;
-    }
-
-    .tour-textbox h2{
-        font-size: 2.5rem;
-        font-weight: 400;
-    }
-
-    .tour-image{
-        padding-bottom: 0.55rem;
-    }
-
-    .tour-background p {
-    font-size: 1.25rem;
-    font-weight: 300;
-    }   
-
-    .footer p {
-    font-size: 1.23rem;
-    padding-top: 0.5rem;
-    font-weight: 300;
-    }
-
-    .btn-colour{
-        font-weight: 500;
-        padding: 0.5rem 1.25rem;
-    }
-
-    .tourhero-image img {
-    height: 30rem;
-    }
-
-    .tour-image-group img {
-    height: 23rem;
-    object-fit: cover;
-    width: 100%;
-    }
-
-    .tourpage-inner .carousel-item{
-        height: 25rem;
-    }
-
+@media (min-width: 768px) {
+	h3 {
+		font-size: 2rem;
+		font-weight: 500;
+	}
+	h2 {
+		font-weight: 600;
+		font-size: 2.5rem;
+	}
+	.navbar-brand,
+	.nav-link {
+		font-size: 1.25rem;
+	}
+	.hero-image {
+		height: 40rem;
+	}
+	.hero-text {
+		top: 50%;
+	}
+	.hero-text h1 {
+		font-size: 4.5rem;
+	}
+	.hero-text p {
+		font-size: 1.5rem;
+	}
+	.tour-textbox h2 {
+		font-size: 2.5rem;
+		font-weight: 400;
+	}
+	.tour-image {
+		padding-bottom: 0.55rem;
+	}
+	.tour-background p {
+		font-size: 1.25rem;
+		font-weight: 300;
+	}
+	.footer p {
+		font-size: 1.23rem;
+		padding-top: 0.5rem;
+		font-weight: 300;
+	}
+	.btn-colour {
+		font-weight: 500;
+		padding: 0.5rem 1.25rem;
+	}
+	.tourhero-image img {
+		height: 30rem;
+	}
+	.tour-image-group img {
+		height: 23rem;
+		object-fit: cover;
+		width: 100%;
+	}
+	.tourpage-inner .carousel-item {
+		height: 25rem;
+	}
 }
 
-@media (min-width:992px){
-
-    p{
-        line-height: 1.7;
-    }
-
-    .mainpage-carousel{
-        margin: 4rem 4rem 6rem;
-    }
-
-    .mainpage-inner .carousel-item{
-        height: 40rem;
-    }
-
-    .mainpage-carousel .blockquote p {
-        font-size:3rem;
-    }
-
-    .mainpage-carousel .blockquote-footer{
-        font-size: 1.5rem;
-    }
-
-
-
-        .tourpage-inner .carousel-item{
-        height: 40rem;
-    }
+@media (min-width:992px) {
+	p {
+		line-height: 1.7;
+	}
+	.mainpage-carousel {
+		margin: 4rem 4rem 6rem;
+	}
+	.mainpage-inner .carousel-item {
+		height: 40rem;
+	}
+	.mainpage-carousel .blockquote p {
+		font-size: 3rem;
+	}
+	.mainpage-carousel .blockquote-footer {
+		font-size: 1.5rem;
+	}
+	.tourpage-inner .carousel-item {
+		height: 40rem;
+	}
 }
+
+
 /*
 button for later{
     did mx-auto in class and width 40%, try better option.
 }*/
-
-
