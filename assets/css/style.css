@@ -110,18 +110,16 @@ body {
 .tour-anchor-style {
 	object-fit: cover;
 	box-shadow: 6px 8px 12px 2px rgba(0, 0, 0, 0.3);
-	height: 11rem;
+	width: fit-content;
 }
 
 .tour-title {
 	font-family: "Exo", sans-serif;
 	position: absolute;
 	text-align: center;
-	top: 70%;
-	left: 50%;
-	width: 90%;
-    /* fix found at https://www.w3schools.com/howto/howto_css_image_text.asp for image positioning*/
-	transform: translate(-50%, -50%);
+	bottom: 10%;
+	right: 9%;
+	width: 82%;
     /*Adds slight border around headings to make them more visible; found suggestion at https://wpshout.com/quick-guides/create-text-outline-css/ */
 	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.25), 1px -1px 0 rgba(0, 0, 0, 0.25), -1px 1px 0 rgba(0, 0, 0, 0.25), 1px 1px 0 rgba(0, 0, 0, 0.25);
 }
