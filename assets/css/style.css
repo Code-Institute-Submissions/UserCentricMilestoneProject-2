@@ -1,12 +1,7 @@
 body {
 	background-color: #fff9f1;
-	/* maybe lighter version of #646461 */
 }
-
-
-/* previous red colour #ec473f */
-
-
+/*------------Header-------------*/
 /*------------Navigation-------------*/
 
 .bg-custom {
@@ -21,16 +16,11 @@ body {
 	background-color: transparent;
 }
 
-.fa-kiwi-bird {
-	padding-right: 10px;
-}
-
-
-/*------------Header-------------*/
+/*------------Mainpage Hero image and Text-------------*/
 
 .hero-image {
+    /* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ to set location to root folder and find images */
 	background: url("../images/southday3.1.jpg");
-	/* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ to set location to root folder and find images */
 	height: 90vh;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -45,6 +35,7 @@ body {
 
 .hero-text {
 	top: 45%;
+    /*Adds slight border around headings to make them more visible; found suggestion at https://wpshout.com/quick-guides/create-text-outline-css/ */
 	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.25), 1px -1px 0 rgba(0, 0, 0, 0.25), -1px 1px 0 rgba(0, 0, 0, 0.25), 1px 1px 0 rgba(0, 0, 0, 0.25);
 	height: 20rem;
 }
@@ -60,11 +51,11 @@ body {
 	font-family: "Exo", sans-serif;
 	font-weight: 400;
 	color: #fff9f1;
+    /*Adds slight border around headings to make them more visible; found suggestion at https://wpshout.com/quick-guides/create-text-outline-css/ */
 	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.25), 1px -1px 0 rgba(0, 0, 0, 0.25), -1px 1px 0 rgba(0, 0, 0, 0.25), 1px 1px 0 rgba(0, 0, 0, 0.25);
 }
 
-
-/*------------Mainpage - Carousel-------------*/
+/*------------Carousel -Mainpage-------------*/
 
 .mainpage-carousel {
 	margin: 1rem;
@@ -88,15 +79,12 @@ body {
 	object-fit: cover;
 }
 
-
 /* Code used to fix this found on stack overflow: https://stackoverflow.com/questions/47235256/bootstrap-4-change-the-carousel-indicators-into-dots?rq=1 */
-
 .carousel-indicators li {
 	border-radius: 50%;
 	height: 10px;
 	width: 10px;
 }
-
 
 /*-----------About-us-------------------*/
 
@@ -108,13 +96,7 @@ body {
 	height: 38.5rem;
 }
 
-
-/*-----------Tour Image Links-----------*/
-
-.tour-background {
-	background: #fdf3e7;
-	background: linear-gradient(1deg, rgba(254, 246, 235, 1) 0%, rgba(228, 218, 205, 1) 10%, rgba(228, 218, 205, 1) 91%, rgba(254, 246, 235, 1) 100%);
-}
+/*-----------Tour Article Links-----------*/
 
 .tour-textbox h2,
 .tour-textbox p {
@@ -124,7 +106,7 @@ body {
 .tour-anchor {
 	padding: 0px;
 }
-
+/*Makes anchor take up whole image height and width*/
 .tour-anchor a {
 	display: block;
 }
@@ -142,8 +124,9 @@ body {
 	top: 70%;
 	left: 50%;
 	width: 90%;
+    /* fix found at https://www.w3schools.com/howto/howto_css_image_text.asp for image positioning*/
 	transform: translate(-50%, -50%);
-	/* fix found at https://www.w3schools.com/howto/howto_css_image_text.asp for image positioning*/
+    /*Adds slight border around headings to make them more visible; found suggestion at https://wpshout.com/quick-guides/create-text-outline-css/ */
 	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.25), 1px -1px 0 rgba(0, 0, 0, 0.25), -1px 1px 0 rgba(0, 0, 0, 0.25), 1px 1px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -152,9 +135,7 @@ body {
 	margin: 0;
 }
 
-
 /* Instructions for making arrows found at https://www.w3schools.com/howto/howto_css_arrows.asp on their online tutorial*/
-
 .arrow {
 	border: solid black;
 	border-width: 0 3px 3px 0;
@@ -162,43 +143,16 @@ body {
 	padding: 3px;
 	margin: 2px;
 }
-
+/* Also found at https://www.w3schools.com/howto/howto_css_arrows.asp to make pseudo buttons for tour article image links*/
 .right {
 	transform: rotate(-45deg);
-}
-
-.down {
-	transform: rotate(45deg);
 }
 
 .tour-anchor a:hover {
 	opacity: 0.7;
 }
 
-@media (min-width:768px) {
-	.tour-anchor {
-		padding: 3rem 1rem 2rem;
-	}
-	.tour-anchor-style {
-		height: 25rem;
-	}
-}
-
-@media (min-width:992px) {
-	.tour-background {
-		padding: 1rem 4rem;
-	}
-	.tour-anchor {
-		padding: 2rem 2rem;
-	}
-	.tour-anchor-style {
-		height: 600px;
-	}
-}
-
-
 /*-----------Core-Values-------------*/
-
 .core-values {
 	padding: 60px 30px 30px;
 }
@@ -208,11 +162,10 @@ body {
 	width: 3rem;
 	font-size: 3rem;
 	color: #f0160b;
-}
-
+} 
 
 /*------------Buttons-------------*/
-
+/*Self styled buttons and colors compared to bootstrap's*/
 .btn-colour {
 	background-color: #f0160b;
 	color: #fff9f1;
@@ -225,18 +178,12 @@ body {
 	margin-bottom: 1.5rem;
 }
 
-.btn-bottom-page {
-	margin-top: 2rem;
-}
-
 .btn:hover {
 	background-color: #bd0900;
 	color: #fff9f1;
 }
 
-
 /*------------Contact Us-------------*/
-
 .contact-us {
 	background-image: url("../images/contactusbackground.jpg");
 	background-repeat: no-repeat;
@@ -244,10 +191,9 @@ body {
 	background-size: cover;
 	margin-top: 1rem;
 }
-
+/*Adds a darker shade over contact form to make text easier to read*/
 .opacity {
 	background-color: rgba(1, 1, 1, 0.7);
-	height: inherit;
 	color: #fff9f1;
 	padding-top: 0.1rem;
 	padding-bottom: 1rem;
@@ -286,6 +232,7 @@ body {
 	margin-right: 0;
 }
 
+/*found here for the technique to alter the background of autofilled inputs https://stackoverflow.com/questions/29580704/change-input-background-to-transparent-on-autocomplete-form */
 .elegant-form:-webkit-autofill,
 .elegant-form:-webkit-autofill:hover,
 .elegant-form:-webkit-autofill:focus,
@@ -293,62 +240,11 @@ body {
 	transition: background-color 5000s;
 	-webkit-text-fill-color: #fff9f1;
 	-webkit-transition-property: background-color !important;
-	/*found here for the technique to alter the background of autofilled inputs
-     https://stackoverflow.com/questions/29580704/change-input-background-to-transparent-on-autocomplete-form */
 }
 
 .form-warning {
 	font-size: 0.8rem;
 }
-
-@media (min-width:768px) {
-	.company-details {
-		padding-top: 2rem;
-	}
-	.company-details i {
-		height: 4rem;
-		width: 4rem;
-		font-size: 4rem;
-	}
-	.input-layout {
-		padding: 3rem 2rem 2rem;
-	}
-}
-
-@media(min-width:992px) {
-	.opacity {
-		padding: 1rem 0;
-	}
-	.input-layout {
-		padding: 3rem 6rem 2rem 2rem;
-		font-size: 1.25rem;
-	}
-	.form-warning {
-		font-size: 1rem;
-	}
-}
-
-
-/* .inputTransparent {
-    border: 1px solid black;
-    background-color: transparent;
-}
-
-.inputTransparent:-webkit-autofill {
-    -webkit-text-fill-color: #fff9f1;
-    transition-delay: 99999s;
-    -webkit-transition-property: background-color !important;
-} */
-
-
-/* .inputTransparent:-webkit-autofill,
-.inputTransparent:-webkit-autofill:hover,
-.inputTransparent:-webkit-autofill:focus,
-.inputTransparent:-webkit-autofill:active{ 
-   -webkit-transition-delay: 99999s;
-   -webkit-transition-property: background-color !important;
- } */
-
 
 /*------------Footer-------------*/
 
@@ -374,9 +270,9 @@ body {
 	display: inline-block;
 }
 
-
 /*--------------Typography---------------*/
 
+/*To give consistent spacing for all headers and p sections throughout document*/
 h1,
 h2,
 h3,
@@ -394,15 +290,9 @@ p {
 	line-height: 1.6;
 }
 
-@media (min-width:768px) {
-	p {
-		font-size: 1.2rem;
-	}
-}
+/*-------------------Tour Pages----------------*/
 
-
-/*------------Tour itineraries-------------*/
-
+/*-------------Header----------------*/
 .tour-intro img {
 	position: relative;
 	object-fit: cover;
@@ -420,27 +310,7 @@ p {
 	color: #fff9f1
 }
 
-.tour-banner-container img {
-	height: 400px;
-	object-fit: cover;
-	object-position: 10% 20%;
-	width: fit-content;
-}
-
-@media(min-width:768px) {
-	.tour-intro img {
-		height: 80vh;
-	}
-	.tour-intro .intro-text {
-		top: 25%
-	}
-	.tour-intro h2 {
-		font-size: 3.5rem;
-	}
-}
-
-
-/*-----------Tours: Key-details--------------*/
+/*-----------Key-details--------------*/
 
 .key-details {
 	margin-top: 3rem;
@@ -455,31 +325,22 @@ p {
 	margin-bottom: -1rem;
 }
 
-@media(min-width:768px) {
-	.key-details {
-		margin-top: 1rem;
-		margin-bottom: 3rem;
-	}
-}
-
-
 /*-----------Tours: Comms Panel--------------*/
 
-.img-opacity {
-	background-color: rgba(0, 0, 0, 0.25);
-}
 
-.comms-panel img {
-	position: relative;
+
+.comms-panel{
+    background: rgba(0, 0, 0, 0.25);
+    background-image: url("../images/20200111_202219.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
 	height: 30rem;
-	width: fit-content;
-	object-fit: cover;
-	z-index: -1;
 }
 
 .comms-panel-text {
-	position: absolute;
-	top: 5%;
+	top: 10%;
 }
 
 .comms-panel-text .btn-colour {
@@ -491,24 +352,8 @@ p {
 	color: #fff9f1;
 }
 
-@media (min-width:768px) {
-	.comms-panel-text {
-		top: 20%;
-	}
-}
-
-@media (min-width:992px) {
-	.comms-panel img {
-		height: 35rem;
-	}
-	.comms-panel-text p {
-		font-size: 1.25rem;
-	}
-}
-
-
 /*------------------Tours: Route-inclusions--------*/
-
+/*Overlays image onto background with a multiply setting to pass the colour over incase it gets changed*/
 .route-inclusions {
 	background: #74828F;
 	background-image: url("../images/background.jpg");
@@ -531,16 +376,12 @@ p {
 	color: #fff9f1;
 }
 
-
 /* This code for creation of different colour/styled bullet points was found from a tutorial at https://www.w3schools.com/howto/howto_css_bullet_color.asp -- */
-
 .inclusions ul {
 	list-style: none;
 }
 
-
 /* This code for creation of different colour/styled bullet points was found from a tutorial at https://www.w3schools.com/howto/howto_css_bullet_color.asp -- */
-
 .inclusions ul li::before {
 	content: "\2022";
 	color: #f0160b;
@@ -549,25 +390,6 @@ p {
 	width: 1rem;
 	margin-left: -1rem;
 }
-
-@media(min-width:768px) {
-	.tour-route-img {
-		height: 600px;
-		object-fit: cover;
-		padding-top: 3rem;
-	}
-}
-
-@media(min-width:992px) {
-	.inclusions {
-		margin-top: 1rem;
-		padding-bottom: 0;
-	}
-	.tour-route-img {
-		height: 700px;
-	}
-}
-
 
 /*------------------Tour-itinerary----------*/
 
@@ -602,87 +424,177 @@ p {
 
 /*-------------- Media Queries---------------*/
 
+/*For tablets to laptop sizes*/
 @media (min-width: 768px) {
+    
 	h3 {
 		font-size: 2rem;
 		font-weight: 500;
 	}
+
 	h2 {
 		font-weight: 600;
 		font-size: 2.5rem;
 	}
+
+    p {
+		font-size: 1.2rem;
+	}
+
 	.navbar-brand,
 	.nav-link {
 		font-size: 1.25rem;
 	}
+
 	.hero-image {
 		height: 40rem;
 	}
+
 	.hero-text {
 		top: 50%;
 	}
+
 	.hero-text h1 {
 		font-size: 4.5rem;
 	}
+
 	.hero-text p {
 		font-size: 1.5rem;
 	}
+
 	.tour-textbox h2 {
 		font-size: 2.5rem;
 		font-weight: 400;
 	}
+
 	.tour-image {
 		padding-bottom: 0.55rem;
 	}
-	.tour-background p {
-		font-size: 1.25rem;
-		font-weight: 300;
+
+	.tour-anchor {
+		padding: 3rem 1rem 2rem;
 	}
+
+	.tour-anchor-style {
+		height: 25rem;
+	}
+
+    .company-details {
+		padding-top: 2rem;
+	}
+
+	.company-details i {
+		height: 4rem;
+		width: 4rem;
+		font-size: 4rem;
+	}
+
+	.input-layout {
+		padding: 3rem 2rem 2rem;
+	}
+
 	.footer p {
 		font-size: 1.23rem;
 		padding-top: 0.5rem;
 		font-weight: 300;
 	}
+
 	.btn-colour {
 		font-weight: 500;
 		padding: 0.5rem 1.25rem;
 	}
-	.tourhero-image img {
-		height: 30rem;
+
+    .tour-intro img {
+		height: 80vh;
 	}
-	.tour-image-group img {
-		height: 23rem;
-		object-fit: cover;
-		width: 100%;
+
+	.tour-intro .intro-text {
+		top: 25%
 	}
+
+	.tour-intro h2 {
+		font-size: 3.5rem;
+	}
+
 	.tourpage-inner .carousel-item {
 		height: 25rem;
 	}
+
+    .key-details {
+		margin-top: 1rem;
+		margin-bottom: 3rem;
+	}
+
+    .comms-panel-text {
+		top: 20%;
+	}
+
+    .tour-route-img {
+		height: 600px;
+		object-fit: cover;
+		padding-top: 3rem;
+	}
 }
 
+/*For laptops and above*/
 @media (min-width:992px) {
 	p {
 		line-height: 1.7;
 	}
+
+    .tour-anchor {
+		padding: 2rem 2rem;
+	}
+
+	.tour-anchor-style {
+		height: 600px;
+	}
+
 	.mainpage-carousel {
 		margin: 4rem 4rem 6rem;
 	}
+
 	.mainpage-inner .carousel-item {
 		height: 40rem;
 	}
+
 	.mainpage-carousel .blockquote p {
 		font-size: 3rem;
 	}
+
 	.mainpage-carousel .blockquote-footer {
 		font-size: 1.5rem;
 	}
+
 	.tourpage-inner .carousel-item {
 		height: 40rem;
 	}
+
+    .opacity {
+		padding: 1rem 0;
+	}
+
+	.input-layout {
+		padding: 3rem 6rem 2rem 2rem;
+		font-size: 1.25rem;
+	}
+
+	.form-warning {
+		font-size: 1rem;
+	}
+
+    .comms-panel {
+		height: 35rem;
+	}
+	.comms-panel-text p {
+		font-size: 1.25rem;
+	}
+
+    .inclusions {
+		margin-top: 1rem;
+		padding-bottom: 0;
+	}
+	.tour-route-img {
+		height: 700px;
+	}
 }
-
-
-/*
-button for later{
-    did mx-auto in class and width 40%, try better option.
-}*/
