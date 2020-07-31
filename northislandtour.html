@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <!--Meta Data-->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Style Sheets-->
+      <!--Bootstrap External Library-->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css">
+      <!--Googlefonts External Library-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap">
+      <!--Font-Awesome External Library-->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-      <script src="https://kit.fontawesome.com/d57b53712b.js" crossorigin="anonymous"></script>
+      <!--CSS External Stylesheet-->
       <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-      <title>Kiwi Bus Tour Company</title>
+      <!--Page Title-->
+      <title>Kiwi Bus Tours</title>
       <!--CHANGE TITLE/ THINK OF COMPANY NAME-->
    </head>
    <body>
       <header>
-         <!--navbar/toggle button, initial base code copied from bootstrap navbar components page-->
+         <!--Navigation Bar-->
          <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-custom">
             <a class="navbar-brand brand-logo" href="index.html">
             <img src="assets/images/illustration.png" width="40" height="30" class="d-inline-block align-center" alt="Peach coloured icon of two kiwi birds" loading="lazy">
             Kiwi Bus Tours
             </a>
-            <!-- <a class="navbar-brand" href="index.html"><i class="fas fa-kiwi-bird"> </i>Kiwi Bus Tours</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavigationItems" aria-controls="navbarNavigationItems" aria-expanded="false"
                aria-label="Toggle nagivation">
             <span class="navbar-toggler-icon"></span>
@@ -32,14 +38,14 @@
                      <div class="dropdown-menu bg-custom" aria-labelledby="navbarTourDropdown">
                         <a class="dropdown-item active" href="northislandtour.html">North Island Tour<span class="sr-only">(Current)</span></a>
                         <a class="dropdown-item" href="southislandtour.html">South Island Tour</a>
-                        <a class="dropdown-item" href="bothislandtour.html">North and South Island Tour</a> <!--may but divider between #3 and #4-->
+                        <a class="dropdown-item" href="bothislandtour.html">North and South Island Tour</a>
                      </div>
                   </li>
                   <li class="nav-item"><a class="nav-link" href="index.html#contactUs">Contact us</a></li>
                </ul>
             </div>
          </nav>
-         <!--Navbar-->
+         <!--Hero Image and Header-->
          <section>
             <div class="container-fluid tour-intro px-0">
                <div class="row justify-content-center m-0">
@@ -48,6 +54,7 @@
                      <div class="col-12 text-center px- intro-text">
                         <h2 class="text-uppercase">New Zealand North Island Tour</h2>
                         <div class="row justify-content-center">
+                           <!--Contact Us and Download Button--> 
                            <a class="col-12 col-md-6 btn btn-colour btn-position text-uppercase" href="index.html#contactUs" role="button">Get in Touch</a>
                            <a class="col-12 col-md-6 btn btn-colour btn-position text-uppercase" href="#" role="button">Download Itinerary</a>
                         </div>
@@ -57,9 +64,8 @@
             </div>
          </section>
       </header>
-      <!--Tour page hero image   MAKE BACKGROUND -->
       <article>
-         <!-- Key details-->
+         <!--Key Tour Details-->
          <section class="container key-details">
             <div class="row">
                <div class="col-12 col-md-6 text-center">
@@ -74,7 +80,7 @@
                </div>
             </div>
          </section>
-         <!-- icons for details-->
+         <!--Highlights and Inclusions-->
          <section class="container-fluid">
             <div class="row route-inclusions justify-content-center">
                <div class="col-12 col-md-6 col-lg-4">
@@ -110,10 +116,9 @@
                <div class="col-12 col-md-6 col-lg-4">
                   <img src="assets/images/newzealandnorthfocus.png" alt="map of north new zealand with red dotted line showing tour route" class="img-fluid tour-route-img">
                </div>
-               <!-- tour-banner-container <img class="mw-100" src="assets/images/northday5.1.jpg" alt="Selfie of five hikers wearing sunglasses over a mountain pass"> -->
             </div>
          </section>
-         <!--Brief description of tour and selling point, link to contact and pricing-->
+         <!--Tour Overview-->
          <section class="container ">
             <div class="row justify-content-center">
                <div class="col-12 col-lg-10 tour-heading">
@@ -131,7 +136,7 @@
                </div>
             </div>
          </section>
-         <!---->
+         <!--Tour Image Carousel-->
          <section>
             <div id="carouselExampleIndicators1" class="carousel slide tourpage-carousel" data-ride="carousel" data-interval="false">
                <ol class="carousel-indicators">
@@ -182,7 +187,7 @@
                </a>
             </div>
          </section>
-         <!-- Trip Itinerary-->
+         <!--Daily Trip Itinerary-->
          <section class="container tour-itinerary">
             <div class="row justify-content-center">
                <div class="col-12 col-lg-10 day-itinerary">
@@ -327,14 +332,7 @@
                </div>
             </div>
          </section>
-         <!-- possible video-->
-         <div class="container">
-            <div class="row">
-               <div class="">
-               </div>
-            </div>
-         </div>
-         <!-- Contact Panel-->
+         <!--Mainpage Contact Panel-->
          <section class="container-fluid text-center comms-panel px-0">
             <div class="row m-0">
                <div class="col-12 px-0 img-opacity">
@@ -353,12 +351,14 @@
             </div>
          </section>
       </article>
+      <!--Footer-->
       <footer>
          <div class="container-fluid footer mt-auto py-3 bg-custom">
             <div class="row">
                <div class="col-12 col-md-6 text-center">
                   <p>© Kiwi Bus Tour Company 2020</p>
                </div>
+               <!--Social Media Links-->
                <div class="col-12 col-md-6 text-center">
                   <ul class="social-links list-inline">
                      <li class="list-inline">
@@ -396,8 +396,14 @@
             </div>
          </div>
       </footer>
+      <!--Scripts-->
+      <!--Jquery-->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <!--CloudFlare-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <!--Bootstrap-->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <!--Font-Awesome-->
+      <script src="https://kit.fontawesome.com/d57b53712b.js" crossorigin="anonymous"></script>
    </body>
 </html>

@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <!--Meta Data-->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Style Sheets-->
+      <!--Bootstrap External Library-->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css">
+      <!--Googlefonts External Library-->
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap">
+      <!--Font-Awesome External Library-->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+      <!--CSS External Stylesheet-->
       <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-      <title>Kiwi Bus Tour Company</title>
+      <!--Page Title-->
+      <title>Kiwi Bus Tours</title>
       <!--CHANGE TITLE/ THINK OF COMPANY NAME-->
    </head>
    <body>
       <header>
+         <!--Navigation Bar and Brand Logo-->
          <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-custom" >
             <a class="navbar-brand brand-logo" href="index.html">
             <img src="assets/images/illustration.png" width="40" height="30" class="d-inline-block align-center" alt="Peach coloured icon of two kiwi birds" loading="lazy">
@@ -37,6 +45,7 @@
                </ul>
             </div>
          </nav>
+         <!--Hero Image and Header-->
          <div class=" container-fluid hero-image">
             <div class=" row hero-image-opacity">
                <div class=" col-12 hero-text">
@@ -51,6 +60,7 @@
          </div>
       </header>
       <main>
+         <!--About Us Introduction-->
          <section class="container about-us">
             <div class="row justify-content-center">
                <div class="col-12 col-lg-6 text-center about-text">
@@ -67,6 +77,7 @@
                </div>
             </div>
          </section>
+         <!--Tour Page Links-->
          <section class="tour-links">
             <div class="container-fluid route-inclusions">
                <div class="row justify-content-center">
@@ -78,7 +89,7 @@
                      <a class="" href="northislandtour.html">
                         <img class="mw-100 tour-anchor-style" src="assets/images/northtouranchor.jpg" alt="Auckland suburb by the sea with a volcano in the distance.">
                         <div class="tour-title">
-                           <!--Instructions for making arrows found at https://www.w3schools.com/howto/howto_css_arrows.asp on their online tutorial-->
+                           <!--Instructions for making arrows found at https://www.w3schools.com/howto/howto_css_arrows.asp on their online tutorial(CSS code also referenced)-->
                            <h3>North Island Tour<i class="arrow right"></i></h3>
                         </div>
                      </a>
@@ -102,6 +113,7 @@
                </div>
             </div>
          </section>
+         <!--Company Core Values-->
          <section class="container core-values">
             <div class="row">
                <div class="col-12 col-md-6 col-lg-3 text-center">
@@ -126,14 +138,15 @@
                </div>
             </div>
          </section>
+         <!--Testimonials Carousel-->
          <section id="carouselExampleControls" class="carousel slide mainpage-carousel" data-ride="carousel" data-interval="false">
             <div class="carousel-inner mainpage-inner">
                <figure class="carousel-item active">
                   <img src="assets/images/maincarousel1.jpg" class="d-block w-100" alt="A moari stone carving on a hillside with the sea in the background.">
                   <div class="carousel-caption">
-                     <!-- Block house quotes with footer class was used from this webpage as part of the bootstrap library https://getbootstrap.com/docs/4.0/layout/overview/ -->
+                     <!--Block house quotes with footer class was used from this webpage as part of the bootstrap library https://getbootstrap.com/docs/4.0/layout/overview/-->
                      <blockquote class="blockquote">
-                        <!--- Use of the <q> tag was found on the W3C website tutorial https://www.w3schools.com/html/html_quotation_elements.asp-->
+                        <!---Use of the <q> tag was found on the W3C website tutorial https://www.w3schools.com/html/html_quotation_elements.asp-->
                         <p class="mb-0"><q>Had the most AMAZING trip! Even when the weather wasn't perfect we found something to do! Deffo recommend!</q></p>
                         <footer class="blockquote-footer">Jessabell Cumberquat</footer>
                      </blockquote>
@@ -176,9 +189,11 @@
             <span class="sr-only">Next</span>
             </a>
          </section>
+         <!--Contact Section-->
          <form id="contactUs" class="contact-us">
             <div class="container-fluid opacity">
                <div class="row m-0">
+                  <!--Company Details-->
                   <div class="col-12 col-md-5 company-details text-center">
                      <i class="fas fa-kiwi-bird" aria-hidden="true"></i>
                      <h2 class="text-uppercase" id="contactHeading">Contact Us</h2>
@@ -193,9 +208,10 @@
                      <h6 class="text-center text-uppercase">mail@kiwibustours.com</h6>
                      <p class="text-muted form-warning">*If using a section of our form turns white after autofill/autocomplete, please delete the last letter/number and type it in to return to normal.</p>
                   </div>
+                  <!--Contact Form-->
                   <div class="col-12 col-md-7 col-lg-6 input-layout">
+                     <!--Found code for justify-content-center at https://stackoverflow.com/questions/46560362/how-to-center-form-using-bootstrap-4/46560551-->
                      <div class="form-row justify-content-center">
-                        <!-- Found code for justify-content-center at https://stackoverflow.com/questions/46560362/how-to-center-form-using-bootstrap-4/46560551 -->
                         <div class="form-group col-md-6">
                            <label for="firstName">First Name</label>
                            <input type="text" class="form-control elegant-form" id="firstName" name="firstName" placeholder="First Name" required>
@@ -234,12 +250,14 @@
             </div>
          </form>
       </main>
+      <!--Footer-->
       <footer>
          <div class="container-fluid footer mt-auto py-3 bg-custom">
             <div class="row">
                <div class="col-12 col-md-6 text-center">
                   <p>© Kiwi Bus Tour Company 2020</p>
                </div>
+               <!--Social Media Links-->
                <div class="col-12 col-md-6 text-center">
                   <ul class="social-links list-inline">
                      <li class="list-inline">
@@ -277,9 +295,14 @@
             </div>
          </div>
       </footer>
+      <!--Scripts-->
+      <!--Jquery-->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <!--CloudFlare-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <!--Bootstrap-->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <!--Font-Awesome-->
       <script src="https://kit.fontawesome.com/d57b53712b.js" crossorigin="anonymous"></script>
    </body>
 </html>
