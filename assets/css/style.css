@@ -52,6 +52,10 @@ body {
 }
 
 /*------------Carousel -testimonials-------------*/
+.testimonials-heading {
+    margin: 3rem;
+}
+
 
 .testimonials-carousel {
 	margin: 1rem;
@@ -149,6 +153,10 @@ body {
 /*-----------Core-Values-------------*/
 .core-values {
 	padding: 60px 30px 30px;
+}
+
+.core-values h3 {
+    margin-bottom: 4rem;
 }
 
 .core-values div div i {
