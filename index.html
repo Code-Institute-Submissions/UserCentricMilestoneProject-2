@@ -42,7 +42,7 @@
                         <a class="dropdown-item" href="bothislandtour.html">North and South Island Tour</a>                      
                      </div>
                   </li>
-                  <li class="nav-item"><a class="nav-link" href="#contactUs">Contact us</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contactus.html">Contact us</a></li>
                </ul>
             </div>
          </nav>
@@ -200,67 +200,23 @@
             <span class="sr-only">Next</span>
             </a>
          </section>
-         <!--Contact Section-->
-         <form action="https://formdump.codeinstitute.net/" method="post" target="_blank" id="contactUs" class="contact-us">
-            <div class="container-fluid">
-               <div class="row m-0">
-                  <!--Company Details-->
-                  <div class="col-12 col-md-5 company-details text-center">
-                     <i class="fas fa-kiwi-bird" aria-hidden="true"></i>
-                     <h2 class="text-uppercase" id="contactHeading">Contact Us</h2>
-                     <p>
-                        1221 Kiwi Street <br>
-                        Auckland 1020 <br>
-                        Outside New Zealand: <br>
-                        +61 7 483 8855 <br>
-                        Inside New Zealand: <br>
-                        089 465 8855 <br>
-                     </p>
-                     <h6 class="text-center text-uppercase">mail@kiwibustours.com</h6>
-                     <p class="text-muted form-warning">*If using a section of our form turns white after autofill/autocomplete, please delete the last letter/number and type it in to return to normal.</p>
-                  </div>
-                  <!--Contact Form-->
-                  <div class="col-12 col-md-7 col-lg-6 input-layout">
-                     <!--Found code for justify-content-center at https://stackoverflow.com/questions/46560362/how-to-center-form-using-bootstrap-4/46560551-->
-                     <div class="form-row justify-content-center">
-                        <div class="form-group col-md-6">
-                           <label for="firstName">First Name</label>
-                           <input type="text" class="form-control elegant-form" id="firstName" name="firstName" placeholder="First Name" required>
-                        </div>
-                        <div class="form-group col-md-6">
-                           <label for="surname">Surname</label>
-                           <input type="text" class="form-control elegant-form" id="surname" name="surname" placeholder="Surname" required>
-                        </div>
-                        <div class="form-group col-md-6">
-                           <label for="emailAddress">Email Address</label>
-                           <input type="email" class="form-control elegant-form" id="emailAddress" name="emailAddress" placeholder="exampled@email.com" required>
-                        </div>
-                        <div class="form-group col-md-6">
-                           <label for="phone">Phone Number</label>
-                           <input type="tel" class="form-control elegant-form" id="phone" name="phone" placeholder="Phone Number" required>
-                        </div>
-                        <div class="form-group col-12">
-                           <label for="tourSelectionForm">Which Tour Are You Interested In?</label>
-                           <!--Tutorial shighlighting where to set required attribute and how to detail value for intro value found at w3c https://www.w3schools.com/tags/att_select_required.asp-->
-                           <select class="form-control elegant-form" id="tourSelectionForm" required>
-                              <option selected value="">Select...</option>
-                              <!--Tutorial showing that value is required to be sent found at w3c https://www.w3schools.com/tags/tag_option.asp-->
-                              <option value="North Island Tour">North Island Tour</option>
-                              <option value="South Island Tour">South Island Tour</option>
-                              <option value="North and South Island Tour">North and South Island Tour</option>
-                           </select>
-                        </div>
-                        <div class="form-group col-12">
-                           <label for="contactTextArea">Any other details</label>
-                           <textarea class="form-control elegant-form" id="contactTextArea" name="contactTextArea" rows="5" cols="50"
-                              placeholder="Please enter any extra information; such the number of passengers travelling or any particular questions we can answer."></textarea>
-                        </div>
+         <!--Contact Panel: Encourages user to direct to contact page so user doesn't need to scroll up-->
+         <section class="container-fluid text-center comms-panel">
+            <div class="row">
+               <div class="col-12">
+                  <div class="comms-panel-text col-12">
+                     <div>
+                        <h3 class="text-capitalize">Ready to spread your wings?<br>Let us Help.</h3>
+                        <p>Get in touch using our contact form and we'll call you back to discuss your tour.</p>
+                        <p>Once you're sorted, we'll send your confirmation and handy guide so you get ready.</p>
                      </div>
-                     <button type="submit" class="btn btn-colour btn-lg btn-block btn-position text-uppercase">Submit</button>
+                     <div class="col-12">
+                        <a class="btn btn-colour btn-lg text-uppercase" href="contactus.html" role="button">Get in Touch</a>
+                     </div>
                   </div>
                </div>
             </div>
-         </form>
+         </section>
       </main>
       <!--Footer-->
       <footer>

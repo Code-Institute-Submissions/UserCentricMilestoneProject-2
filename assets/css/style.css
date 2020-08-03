@@ -193,10 +193,10 @@ body {
 	background-position: center;
 	background-size: cover;
     background-blend-mode: multiply;
-	margin-top: 1rem;
+	margin-top: 3.5rem;
     color: #fff9f1;
-    padding-top: 0.1rem;
-	padding-bottom: 1rem;
+    padding-top: 0.5rem;
+	padding-bottom: 2rem;
 }
 
 .company-details i {
