@@ -16,6 +16,11 @@ body {
 	background-color: transparent;
 }
 
+.brand-size {
+    height:30px;
+    width: 40px:
+}
+
 /*------------indexpage Hero image and Text-------------*/
 
 .hero-image {
@@ -38,14 +43,14 @@ body {
 }
 
 .hero-text h1 {
-	font-family: "Exo", sans-serif;
+	font-family: "Oswald", sans-serif;
 	color: #fff9f1;
 	font-weight: 600;
 	font-size: 3rem;
 }
 
 .hero-text h3 {
-	font-family: "Exo", sans-serif;
+	font-family: "Oswald", sans-serif;
 	font-weight: 400;
 	color: #fff9f1;
     /*Adds slight border around headings to make them more visible; found suggestion at https://wpshout.com/quick-guides/create-text-outline-css/ */
@@ -121,7 +126,7 @@ body {
 }
 
 .tour-title {
-	font-family: "Exo", sans-serif;
+	font-family: "Oswald", sans-serif;
 	position: absolute;
 	text-align: center;
 	bottom: 10%;
@@ -256,7 +261,7 @@ body {
 /*------------Footer-------------*/
 
 .footer p {
-	font-family: "Exo", sans-serif;
+	font-family: "Oswald", sans-serif;
 	color: #fff9f1;
 	padding-left: 10px;
 }
@@ -287,7 +292,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Exo", sans-serif;
+	font-family: "Oswald", sans-serif;
 	margin-bottom: 1.5rem;
 	margin-top: 1.5rem;
 	color: #f0160b;
