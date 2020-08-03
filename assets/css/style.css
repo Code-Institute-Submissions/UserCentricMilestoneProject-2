@@ -200,9 +200,9 @@ body {
 
 .elegant-form {
 	background: transparent;
-	border-color: transparent;
+	border: 0;
+    border-bottom: 1px solid;
 	border-bottom-color: #fff9f1;
-	border-bottom-style: solid;
 	color: #fff9f1;
 	padding-left: 0;
 }
@@ -231,7 +231,6 @@ body {
 .elegant-form:-webkit-autofill:active {
 	transition: background-color 5000s;
 	-webkit-text-fill-color: #fff9f1;
-	-webkit-transition-property: background-color !important;
 }
 
 .form-warning {
