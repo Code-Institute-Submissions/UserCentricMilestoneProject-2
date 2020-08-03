@@ -21,6 +21,7 @@ body {
 .hero-image {
     /* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ to set location to root folder and find images */
 	background-image: url("../images/southday3.1.jpg");
+    /*Applies a overlay to help text above appear better*/
     background-color: rgba(0, 0, 0, 0.25);
     background-blend-mode: multiply;
 	background-position: center;
@@ -61,6 +62,7 @@ body {
 	margin: 1rem;
 }
 
+/*Small background around blockquotes to highlight text and identify key aspect of carousel*/
 .testimonials-carousel .blockquote {
 	background-color: rgba(45, 59, 71, 0.7);
 }
@@ -111,6 +113,7 @@ body {
 	display: block;
 }
 
+/*Applies a slight shadow under boxes for tour links to draw attention*/
 .tour-anchor-style {
 	object-fit: cover;
 	box-shadow: 6px 8px 12px 2px rgba(0, 0, 0, 0.3);
@@ -159,6 +162,7 @@ body {
     margin-bottom: 4rem;
 }
 
+/*Changes size for icons from font-awesome so they are easily visible on screen*/
 .core-values div div i {
 	height: 3rem;
 	width: 3rem;
@@ -186,6 +190,7 @@ body {
 }
 
 /*------------Contact Us-------------*/
+/*Background image and dark overlay for contact section to differentiate it from other pages and make writing easier to read*/
 .contact-us {
     background-color: rgba(1, 1, 1, 0.7);
 	background-image: url("../images/contactusbackground.jpg");
@@ -206,6 +211,7 @@ body {
 	margin: 2rem 0 -1rem;
 }
 
+/*Form designed to stream lined input to clear backgrounds with a single bottom border to help seperate inputs*/
 .elegant-form {
 	background: transparent;
 	border: 0;
@@ -237,6 +243,8 @@ body {
 .elegant-form:-webkit-autofill:hover,
 .elegant-form:-webkit-autofill:focus,
 .elegant-form:-webkit-autofill:active {
+    /*Should force the transition between autofilled boxes to be delayed by 5000s, showing background colour through. Not 100% effective align-content
+    as initial autofilled box does not revert unless edited by hand*/
 	transition: background-color 5000s;
 	-webkit-text-fill-color: #fff9f1;
 }
@@ -257,6 +265,7 @@ body {
 	padding: 0 0.25rem;
 }
 
+/*Changes size and colour of icons for social media*/
 .social-links li a i {
 	color: #fff9f1;
 	height: 2rem;
@@ -318,6 +327,7 @@ p {
 	margin-bottom: 3rem;
 }
 
+/*Changes font size for icons to make them more visible*/
 .key-details i {
 	height: 3rem;
 	width: 3rem;
@@ -328,8 +338,7 @@ p {
 
 /*-----------Tours: Comms Panel--------------*/
 
-
-
+/*Background image with dark overlay at low opacity to offer attractive background and make text more accessible*/
 .comms-panel{
     background: rgba(0, 0, 0, 0.25);
     background-image: url("../images/20200111_202219.jpg");
@@ -413,6 +422,7 @@ p {
 	padding: 0;
 }
 
+/*Affects height of carousel inner container so that images can change to fit the new dimensions*/
 .tourpage-inner .carousel-item {
 	height: 300px;
 }
@@ -530,6 +540,7 @@ p {
 		top: 20%;
 	}
 
+    /*Changes height of tour route map so it better fits along side list elements and does not sit too high or low*/
     .tour-route-img {
 		height: 600px;
 		object-fit: cover;
