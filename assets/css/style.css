@@ -16,11 +16,11 @@ body {
 	background-color: transparent;
 }
 
-/*------------testimonials Hero image and Text-------------*/
+/*------------indexpage Hero image and Text-------------*/
 
 .hero-image {
     /* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ to set location to root folder and find images */
-	background-image: url("../images/southday3.1.jpg");
+	background-image: url("../images/mainheroimage.jpg");
     /*Applies a overlay to help text above appear better*/
     background-color: rgba(0, 0, 0, 0.25);
     background-blend-mode: multiply;
@@ -302,14 +302,25 @@ p {
 
 /*-------------Header----------------*/
 
-
 .tour-intro{
-    background-image: url("../images/southday6.1.jpg");
+    background: #74828F;
     background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	height: 96vh;
     margin-top: 2rem;
+}
+
+.tour-intro.north {
+    background-image: url("../images/northtourhero.jpg");
+}
+
+.tour-intro.south {
+    background-image: url("../images/southtourhero.jpg");
+}
+
+.tour-intro.both {
+    background-image: url("../images/bothtourhero.jpg");
 }
 
 .tour-intro .intro-text {
@@ -341,7 +352,7 @@ p {
 /*Background image with dark overlay at low opacity to offer attractive background and make text more accessible*/
 .comms-panel{
     background: rgba(0, 0, 0, 0.25);
-    background-image: url("../images/20200111_202219.jpg");
+    background-image: url("../images/commspanelbackground.jpg");
     background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
