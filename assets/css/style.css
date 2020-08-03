@@ -311,6 +311,8 @@ p {
     margin-top: 2rem;
 }
 
+/* Use of id to differentiate hero images to each tour suggested by https://stackoverflow.com/questions/45529286/how-to-change-hero-image-based-on-html-page/45529377, used classes
+instead of ids*/
 .tour-intro.north {
     background-image: url("../images/northtourhero.jpg");
 }
