@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body {
 	background-color: #fff9f1;
 }
@@ -83,7 +90,8 @@ body {
 
 .testimonials-inner .carousel-item img {
 	height: 100%;
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 }
 
 /* Code used to fix this found on stack overflow: https://stackoverflow.com/questions/47235256/bootstrap-4-change-the-carousel-indicators-into-dots?rq=1 */
@@ -101,7 +109,8 @@ body {
 
 .about-img {
 	height: 38.5rem;
-    object-fit: contain
+    -o-object-fit: contain;
+       object-fit: contain
 }
 
 /*-----------Tour Article Links-----------*/
@@ -121,8 +130,12 @@ body {
 
 /*Applies a slight shadow under boxes for tour links to draw attention*/
 .tour-anchor-style {
-	object-fit: cover;
-	box-shadow: 6px 8px 12px 2px rgba(0, 0, 0, 0.3);
+	-o-object-fit: cover;
+	   object-fit: cover;
+	-webkit-box-shadow: 6px 8px 12px 2px rgba(0, 0, 0, 0.3);
+	        box-shadow: 6px 8px 12px 2px rgba(0, 0, 0, 0.3);
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
 	width: fit-content;
 }
 
@@ -152,7 +165,9 @@ body {
 }
 /* Also found at https://www.w3schools.com/howto/howto_css_arrows.asp to make pseudo buttons for tour article image links*/
 .right {
-	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	    -ms-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
 }
 
 .tour-anchor a:hover {
@@ -251,6 +266,7 @@ found at https://css-tricks.com/basics-css-blend-modes*/
 .elegant-form:-webkit-autofill:active {
     /*Should force the transition between autofilled boxes to be delayed by 5000s, showing background colour through. Not 100% effective align-content
     as initial autofilled box does not revert unless edited by hand*/
+	-webkit-transition: background-color 5000s;
 	transition: background-color 5000s;
 	-webkit-text-fill-color: #fff9f1;
 }
@@ -447,7 +463,8 @@ instead of ids*/
 
 .tourpage-inner .carousel-item img {
 	height: 100%;
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 }
 
 
@@ -561,7 +578,8 @@ instead of ids*/
     /*Changes height of tour route map so it better fits along side list elements and does not sit too high or low*/
     .tour-route-img {
 		height: 600px;
-		object-fit: cover;
+		-o-object-fit: cover;
+		   object-fit: cover;
 		padding-top: 3rem;
 	}
 }
