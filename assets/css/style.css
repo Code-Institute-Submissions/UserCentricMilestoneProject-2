@@ -26,7 +26,7 @@ body {
 .hero-image {
     /* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ to set location to root folder and find images */
 	background-image: url("../images/mainheroimage.jpg");
-    /*Applies a overlay to help text above appear better*/
+    /*Applies a overlay to help text above appear better, found at https://css-tricks.com/basics-css-blend-modes/ */
     background-color: rgba(0, 0, 0, 0.25);
     background-blend-mode: multiply;
 	background-position: center;
@@ -196,7 +196,8 @@ body {
 }
 
 /*------------Contact Us-------------*/
-/*Background image and dark overlay for contact section to differentiate it from other pages and make writing easier to read*/
+/*Background image and dark overlay for contact section to differentiate it from other pages and make writing easier to read 
+found at https://css-tricks.com/basics-css-blend-modes*/
 .contact-us {
     background-color: rgba(1, 1, 1, 0.7);
 	background-image: url("../images/contactusbackground.jpg");
@@ -357,7 +358,7 @@ instead of ids*/
 
 /*-----------Tours: Comms Panel--------------*/
 
-/*Background image with dark overlay at low opacity to offer attractive background and make text more accessible*/
+/*Background image with dark overlay at low opacity to offer attractive background and make text more accessible, found at https://css-tricks.com/basics-css-blend-modes**/
 .comms-panel{
     background: rgba(0, 0, 0, 0.25);
     background-image: url("../images/commspanelbackground.jpg");
@@ -382,7 +383,7 @@ instead of ids*/
 }
 
 /*------------------Tours: Route-inclusions--------*/
-/*Overlays image onto background with a multiply setting to pass the colour over incase it gets changed*/
+/*Overlays image onto background with a multiply setting to pass the colour over incase it gets changed found at https://css-tricks.com/basics-css-blend-modes**/
 .route-inclusions {
 	background: #74828F;
 	background-image: url("../images/background.jpg");
