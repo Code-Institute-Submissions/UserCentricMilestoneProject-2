@@ -1,362 +1,639 @@
-body{
-    background-color: #DFE5F2;
+body {
+	background-color: #fff9f1;
 }
-
+/*------------Header-------------*/
 /*------------Navigation-------------*/
-.bg-custom{
-    background-color: rgba(24,41,64,1);
+
+.bg-custom {
+	background-color: rgba(24, 41, 64, 1);
 }
 
 .dropdown-item {
-    color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.5);
 }
 
-.dropdown-item.active{
-    background-color: transparent;
+.dropdown-item.active {
+	background-color: transparent;
 }
 
-.fa-kiwi-bird{
-    padding-right:10px;
+.brand-size {
+    height:30px;
+    width: 40px;
 }
-/*------------Header-------------*/
+
+/*------------indexpage Hero image and Text-------------*/
 
 .hero-image {
-    background: url("../images/heroimage.jpg");
-     /* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ to set location to root folder and find images */
-
-    height: 32rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 3.5rem;
-}
-.hero-image-opacity{
-    background-color: rgba(0,0,0,0.25);
-    height: inherit;
+    /* https://teamtreehouse.com/community/my-background-image-wont-show gave solution for using ../ to set location to root folder and find images */
+	background-image: url("../images/mainheroimage.jpg");
+    /*Applies a overlay to help text above appear better*/
+    background-color: rgba(0, 0, 0, 0.25);
+    background-blend-mode: multiply;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: 90vh;
+	margin-top: 3.5rem;
 }
 
-.hero-text{
-    top: 45%;
-    text-shadow: -1px -1px 0 rgba(0,0,0,0.25), 1px -1px 0 rgba(0,0,0,0.25),-1px 1px 0 rgba(0,0,0,0.25), 1px 1px 0 rgba(0,0,0,0.25);
+.hero-text {
+	padding: 5rem 0;
+    /*Adds slight border around headings to make them more visible; found suggestion at https://wpshout.com/quick-guides/create-text-outline-css/ */
+	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.25), 1px -1px 0 rgba(0, 0, 0, 0.25), -1px 1px 0 rgba(0, 0, 0, 0.25), 1px 1px 0 rgba(0, 0, 0, 0.25);
 }
 
-.hero-text h1{
-    font-family: "Exo", sans-serif;
-    color: #fff;
-    font-weight: 600;
-    font-size: 3rem;
+.hero-text h1 {
+	font-family: "Oswald", sans-serif;
+	color: #fff9f1;
+	font-weight: 600;
+	font-size: 3rem;
 }
 
-.hero-text p{
-    font-family: "Exo", sans-serif;
-    font-weight: 400;
-    color:#fff;
-    text-shadow: -1px -1px 0 rgba(0,0,0,0.25), 1px -1px 0 rgba(0,0,0,0.25),-1px 1px 0 rgba(0,0,0,0.25), 1px 1px 0 rgba(0,0,0,0.25);
+.hero-text h3 {
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	color: #fff9f1;
+    /*Adds slight border around headings to make them more visible; found suggestion at https://wpshout.com/quick-guides/create-text-outline-css/ */
+	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.25), 1px -1px 0 rgba(0, 0, 0, 0.25), -1px 1px 0 rgba(0, 0, 0, 0.25), 1px 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+/*------------Carousel -testimonials-------------*/
+.testimonials-heading {
+    margin: 3rem;
 }
 
 
-/*------------Mainpage - Carousel-------------*/
-
-.carousel-container{
-    position: relative;
+.testimonials-carousel {
+	margin: 1rem;
 }
 
-.intro-text{
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    transform:translate(-0%,-50%);
-    color: #fff;
-    background-blend-mode: overlay;
+/*Small background around blockquotes to highlight text and identify key aspect of carousel*/
+.testimonials-carousel .blockquote {
+	background-color: rgba(45, 59, 71, 0.7);
 }
 
-.carousel-dimensions.mainpage-carousel{
-    padding-bottom: 1rem;
-    margin-top:1rem;
+.testimonials-carousel .blockquote p {
+	color: #fff9f1;
+	font-style: italic;
 }
 
-.mainpage-inner .carousel-item {
-    height: 300px;
+.testimonials-inner .carousel-item {
+	height: 20rem;
 }
 
-.mainpage-inner .carousel-item img{
-    height: 100%;
-    object-fit: cover;
+.testimonials-inner .carousel-item img {
+	height: 100%;
+	object-fit: cover;
 }
 
-/*-----------Tour Image Links-----------*/
-
-.tour-background{
-    padding:0 2rem 3rem;
-    background-color: #27402D;
-    color: #fff;
+/* Code used to fix this found on stack overflow: https://stackoverflow.com/questions/47235256/bootstrap-4-change-the-carousel-indicators-into-dots?rq=1 */
+.carousel-indicators li {
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
 }
 
-.tour-anchor{
-    padding: 0px;
+/*-----------About-us-------------------*/
+
+.about-text {
+	padding: 60px 30px 45px;
 }
 
-.tour-anchor a{
-    display: block;
+.about-img {
+	height: 38.5rem;
+    object-fit: contain
 }
 
-.tour-textbox {
-    font-family:"Exo", sans-serif;
-    position: absolute;
-    color: white;
-    text-align: center;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);  /* fix found at https://www.w3schools.com/howto/howto_css_image_text.asp for image positioning*/
-    text-shadow: -1px -1px 0 rgba(0,0,0,0.25), 1px -1px 0 rgba(0,0,0,0.25),-1px 1px 0 rgba(0,0,0,0.25), 1px 1px 0 rgba(0,0,0,0.25);
+/*-----------Tour Article Links-----------*/
+
+.tour-textbox h2,
+.tour-textbox p {
+	color: #fff9f1;
 }
 
-@media only screen and (min-width:992px){
-    .tour-image{
-        padding-left:0.25rem;
-    }
+.tour-anchor {
+	padding: 0px;
 }
+/*Makes anchor take up whole image height and width*/
+.tour-anchor a {
+	display: block;
+}
+
+/*Applies a slight shadow under boxes for tour links to draw attention*/
+.tour-anchor-style {
+	object-fit: cover;
+	box-shadow: 6px 8px 12px 2px rgba(0, 0, 0, 0.3);
+	width: fit-content;
+}
+
+.tour-title {
+	font-family: "Oswald", sans-serif;
+	position: absolute;
+	text-align: center;
+	bottom: 10%;
+	right: 9%;
+	width: 82%;
+    /*Adds slight border around headings to make them more visible; found suggestion at https://wpshout.com/quick-guides/create-text-outline-css/ */
+	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.25), 1px -1px 0 rgba(0, 0, 0, 0.25), -1px 1px 0 rgba(0, 0, 0, 0.25), 1px 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.tour-title h3 {
+	color: #fff9f1;
+	margin: 0;
+}
+
+/* Instructions for making arrows found at https://www.w3schools.com/howto/howto_css_arrows.asp on their online tutorial*/
+.arrow {
+	border: solid #f0160b;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	margin: 2px;
+}
+/* Also found at https://www.w3schools.com/howto/howto_css_arrows.asp to make pseudo buttons for tour article image links*/
+.right {
+	transform: rotate(-45deg);
+}
+
+.tour-anchor a:hover {
+	opacity: 0.7;
+}
+
+/*-----------Core-Values-------------*/
+.core-values {
+	padding: 60px 30px 30px;
+}
+
+.core-values h3 {
+    margin-bottom: 4rem;
+}
+
+/*Changes size for icons from font-awesome so they are easily visible on screen*/
+.core-values div div i {
+	height: 3rem;
+	width: 3rem;
+	font-size: 3rem;
+	color: #f0160b;
+} 
 
 /*------------Buttons-------------*/
-
-.btn-green{
-    background-color: #27402D;
-    color:#fff;
+/*Self styled buttons and colors compared to bootstrap's*/
+.btn-colour {
+	background-color: #f0160b;
+	color: #fff9f1;
+	max-width: 15rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
-.btn-position{
-    margin-bottom: 1.5rem;
+.btn-position {
+	margin-bottom: 1.5rem;
 }
 
-.btn-bottom-page{
-       margin-top: 2rem;
+.btn:hover {
+	background-color: #bd0900;
+	color: #fff9f1;
 }
 
 /*------------Contact Us-------------*/
-.contact-us{
-    background-image: url("../images/contactusbackground.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-top: 1rem;
+/*Background image and dark overlay for contact section to differentiate it from other pages and make writing easier to read*/
+.contact-us {
+    background-color: rgba(1, 1, 1, 0.7);
+	background-image: url("../images/contactusbackground.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    background-blend-mode: multiply;
+	margin-top: 3.5rem;
+    color: #fff9f1;
+    padding-top: 0.5rem;
+	padding-bottom: 2rem;
 }
 
-.opacity{
-    background-color: rgba(1,1,1,0.7);
-    height: inherit;
-    color: #fff;
-    padding-top: 0.1rem;
-    padding-bottom: 1rem;
+.company-details i {
+	height: 2rem;
+	width: 2rem;
+	font-size: 2rem;
+	margin: 2rem 0 -1rem;
 }
 
-.elegant-form{
-    background:transparent;
-    border-color: transparent;
-    border-bottom-color: #fff;
-    border-bottom-style: solid;
-    color: #fff;
-    padding-left: 0;
+/*Form designed to stream lined input to clear backgrounds with a single bottom border to help seperate inputs*/
+.elegant-form {
+	background: transparent;
+	border: 0;
+    border-bottom: 1px solid;
+	border-bottom-color: #fff9f1;
+	color: #fff9f1;
+	padding-left: 0;
 }
 
-.contact-us label{
-    font-weight: 500;
+.contact-us label {
+	font-weight: 500;
 }
 
+.contact-us h6 {
+	color: #fff9f1;
+}
+
+.input-layout {
+	padding-top: 2rem;
+}
+
+.input-layout .btn-colour {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*found here for the technique to alter the background of autofilled inputs https://stackoverflow.com/questions/29580704/change-input-background-to-transparent-on-autocomplete-form */
 .elegant-form:-webkit-autofill,
 .elegant-form:-webkit-autofill:hover,
 .elegant-form:-webkit-autofill:focus,
-.elegant-form:-webkit-autofill:active{
-    transition: background-color 5000s;
-    -webkit-text-fill-color: #fff;
-    -webkit-transition-property: background-color !important;  /*found here for the technique to alter the background of autofilled inputs
-     https://stackoverflow.com/questions/29580704/change-input-background-to-transparent-on-autocomplete-form */
+.elegant-form:-webkit-autofill:active {
+    /*Should force the transition between autofilled boxes to be delayed by 5000s, showing background colour through. Not 100% effective align-content
+    as initial autofilled box does not revert unless edited by hand*/
+	transition: background-color 5000s;
+	-webkit-text-fill-color: #fff9f1;
 }
 
-/* .inputTransparent {
-    border: 1px solid black;
-    background-color: transparent;
+.form-warning {
+	font-size: 0.8rem;
 }
-
-.inputTransparent:-webkit-autofill {
-    -webkit-text-fill-color: #fff;
-    transition-delay: 99999s;
-    -webkit-transition-property: background-color !important;
-} */
-
-/* .inputTransparent:-webkit-autofill,
-.inputTransparent:-webkit-autofill:hover,
-.inputTransparent:-webkit-autofill:focus,
-.inputTransparent:-webkit-autofill:active{ 
-   -webkit-transition-delay: 99999s;
-   -webkit-transition-property: background-color !important;
- } */
 
 /*------------Footer-------------*/
 
 .footer p {
-    font-family: "Exo", sans-serif;
-    color:#fff;
-    padding-left: 10px;
+	font-family: "Oswald", sans-serif;
+	color: #fff9f1;
+	padding-left: 10px;
 }
 
-.social-links li{
-    padding: 0 0.25rem;
+.social-links li {
+	padding: 0 0.25rem;
 }
 
-.social-links li a i{
-    color: #fff;
-    height: 2rem;
-    width: 2rem;
-    font-size: 2rem;
-    padding: 0.5rem;
+/*Changes size and colour of icons for social media*/
+.social-links li a i {
+	color: #fff9f1;
+	height: 2rem;
+	width: 2rem;
+	font-size: 2rem;
+	padding: 0.5rem;
 }
 
-.list-inline{
-    display:inline-block;
+.list-inline {
+	display: inline-block;
 }
-
-
-/*------------General layout-------------*/
-
 
 /*--------------Typography---------------*/
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Exo", sans-serif;
-    margin-bottom: 1rem;
+/*To give consistent spacing for all headers and p sections throughout document*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Oswald", sans-serif;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+	color: #f0160b;
+}
+
+p {
+	font-family: "Lato", sans-serif;
+	line-height: 1.6;
+}
+
+/*-------------------Tour Pages----------------*/
+
+/*-------------Header----------------*/
+
+.tour-intro{
+    background: #74828F;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 96vh;
     margin-top: 2rem;
 }
 
-p{
-    font-family: "Lato", sans-serif;
+/* Use of id to differentiate hero images to each tour suggested by https://stackoverflow.com/questions/45529286/how-to-change-hero-image-based-on-html-page/45529377, used classes
+instead of ids*/
+.tour-intro.north {
+    background-image: url("../images/northtourhero.jpg");
 }
 
-/*------------Tour itineraries-------------*/
-.tourhero-image img{
-   height: 20rem;
-   width: 100%;
-   object-fit: cover; /* suggested by https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-not-stretch/43001159 for use of object -fit cover */
-}
-.price-header{
-    font-size: 2rem;
-    margin-top: 1.5rem;
+.tour-intro.south {
+    background-image: url("../images/southtourhero.jpg");
 }
 
-.tour-image-group{
-    padding-bottom: 1rem;
+.tour-intro.both {
+    background-image: url("../images/bothtourhero.jpg");
 }
 
-.tour-itinerary{
-    padding-bottom: 1rem;
+.tour-intro .intro-text {
+	top: 40%
 }
 
-.tour-itinerary:nth-child(odd){
-    background-color: #27402D;
-    color: #fff;
+.tour-intro h2 {
+	color: #fff9f1
 }
 
-.tourpage-carousel{
-    margin: 0;
-    padding: 0;
+/*-----------Key-details--------------*/
+
+.key-details {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
 
+/*Changes font size for icons to make them more visible*/
+.key-details i {
+	height: 3rem;
+	width: 3rem;
+	font-size: 3rem;
+	margin-top: 1em;
+	margin-bottom: -1rem;
+}
+
+/*-----------Tours: Comms Panel--------------*/
+
+/*Background image with dark overlay at low opacity to offer attractive background and make text more accessible*/
+.comms-panel{
+    background: rgba(0, 0, 0, 0.25);
+    background-image: url("../images/commspanelbackground.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+	height: 30rem;
+}
+
+.comms-panel-text {
+	top: 10%;
+}
+
+.comms-panel-text .btn-colour {
+	margin-top: 1.5rem;
+}
+
+.comms-panel-text h3,
+.comms-panel-text p {
+	color: #fff9f1;
+}
+
+/*------------------Tours: Route-inclusions--------*/
+/*Overlays image onto background with a multiply setting to pass the colour over incase it gets changed*/
+.route-inclusions {
+	background: #74828F;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+	padding-top: 1.5rem;
+	padding-bottom: 2rem;
+}
+
+.route-inclusions .inclusions {
+	max-width: 100%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.inclusions,
+.inclusions h3 {
+	color: #fff9f1;
+}
+
+/* This code for creation of different colour/styled bullet points was found from a tutorial at https://www.w3schools.com/howto/howto_css_bullet_color.asp -- */
+.inclusions ul {
+	list-style: none;
+}
+
+/* This code for creation of different colour/styled bullet points was found from a tutorial at https://www.w3schools.com/howto/howto_css_bullet_color.asp -- */
+.inclusions ul li::before {
+	content: "\2022";
+	color: #f0160b;
+	font-weight: bold;
+	display: inline-block;
+	width: 1rem;
+	margin-left: -1rem;
+}
+
+/*------------------Tour-itinerary----------*/
+
+.tour-heading {
+	padding: 3rem 1rem;
+}
+
+.tour-itinerary {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.day-itinerary i {
+	color: #f0160b;
+	padding: 0.5rem;
+}
+
+.tourpage-carousel {
+	margin: 1rem;
+	padding: 0;
+}
+
+/*Affects height of carousel inner container so that images can change to fit the new dimensions*/
 .tourpage-inner .carousel-item {
-    height: 300px;
+	height: 300px;
 }
 
-.tourpage-inner .carousel-item img{
-    height: 100%;
-    object-fit: cover;
+.tourpage-inner .carousel-item img {
+	height: 100%;
+	object-fit: cover;
 }
-
-.event-style h4{
-    font-weight: bold;
-}
-
 
 
 /*-------------- Media Queries---------------*/
 
-@media (min-width: 768px){
+/*For tablets to laptop sizes*/
+@media (min-width: 768px) {
     
-    h3{
-        font-size: 2rem;
-        font-weight: 500;
-    }
+	h3 {
+		font-size: 2rem;
+		font-weight: 500;
+	}
 
-    h2 {
-        font-weight: 600;
-        font-size: 2.5rem;
-    }
+	h2 {
+		font-weight: 600;
+		font-size: 2.5rem;
+	}
 
-    .navbar-brand,.nav-link{
-        font-size: 1.25rem;
-    }
+    p {
+		font-size: 1.2rem;
+	}
 
-    .hero-image{
-        height: 40rem;
-    }
+	.navbar-brand,
+	.nav-link {
+		font-size: 1.25rem;
+	}
 
-    .hero-text{
-        top: 50%; 
-    }
-    .hero-text h1{
-        font-size:4.5rem;
-    }
+	.hero-image {
+		height: 40rem;
+	}
 
-    .hero-text p{
-        font-size: 1.5rem;
-    }
-    
-    .intro-text h2{
-        font-size: 2.5rem;
-        font-weight: 300;
-    }
+	.hero-text {
+		top: 50%;
+	}
 
+	.hero-text h1 {
+		font-size: 4.5rem;
+	}
 
-    .tour-textbox h2{
-        font-size: 2.5rem;
-        font-weight: 400;
-    }
+	.hero-text p {
+		font-size: 1.5rem;
+	}
 
-    .tour-image{
-        padding-bottom: 0.55rem;
-    }
+	.tour-textbox h2 {
+		font-size: 2.5rem;
+		font-weight: 400;
+	}
 
-    .tour-background p {
-    font-size: 1.25rem;
-    font-weight: 300;
-    }   
+	.tour-image {
+		padding-bottom: 0.55rem;
+	}
 
-    .footer p {
-    font-size: 1.23rem;
-    padding-top: 0.5rem;
-    font-weight: 300;
-    }
+	.tour-anchor {
+		padding: 3rem 1rem 2rem;
+	}
 
-    .btn-green{
-        font-weight: 500;
-        padding: 0.5rem 1.25rem;
-    }
+	.tour-anchor-style {
+		height: 25rem;
+	}
 
-    .tourhero-image img {
-    height: 30rem;
-    }
+    .company-details {
+		padding-top: 2rem;
+	}
 
-    .tour-image-group img {
-    height: 23rem;
-    object-fit: cover;
-    width: 100%;
-    }
+	.company-details i {
+		height: 4rem;
+		width: 4rem;
+		font-size: 4rem;
+	}
 
-    .tourpage-inner .carousel-item{
-        height: 400px;
-    }
+	.input-layout {
+		padding: 3rem 2rem 2rem;
+	}
 
+	.footer p {
+		font-size: 1.23rem;
+		padding-top: 0.5rem;
+		font-weight: 300;
+	}
+
+	.btn-colour {
+		font-weight: 500;
+		padding: 0.5rem 1.25rem;
+	}
+
+    .tour-intro {
+		height: 80vh;
+	}
+
+	.tour-intro .intro-text {
+		top: 50%
+	}
+
+	.tour-intro h2 {
+		font-size: 3.5rem;
+	}
+
+	.tourpage-inner .carousel-item {
+		height: 25rem;
+	}
+
+    .key-details {
+		margin-top: 1rem;
+		margin-bottom: 3rem;
+	}
+
+    .comms-panel-text {
+		top: 20%;
+	}
+
+    /*Changes height of tour route map so it better fits along side list elements and does not sit too high or low*/
+    .tour-route-img {
+		height: 600px;
+		object-fit: cover;
+		padding-top: 3rem;
+	}
 }
-/*
-button for later{
-    did mx-auto in class and width 40%, try better option.
-}*/
+
+/*For laptops and above*/
+@media (min-width:992px) {
+	p {
+		line-height: 1.7;
+	}
+
+    .hero-text h1 {
+		font-size: 6rem;
+	}
+
+    .tour-anchor {
+		padding: 2rem 2rem;
+	}
+
+	.tour-anchor-style {
+		height: 600px;
+	}
+
+	.testimonials-carousel {
+		margin: 4rem 4rem 6rem;
+	}
+
+	.testimonials-inner .carousel-item {
+		height: 40rem;
+	}
+
+	.testimonials-carousel .blockquote p {
+		font-size: 3rem;
+	}
+
+	.testimonials-carousel .blockquote-footer {
+		font-size: 1.5rem;
+	}
+
+	.tourpage-inner .carousel-item {
+		height: 40rem;
+	}
+
+	.input-layout {
+		padding: 3rem 6rem 2rem 2rem;
+		font-size: 1.25rem;
+	}
+
+	.form-warning {
+		font-size: 1rem;
+	}
+
+    .comms-panel {
+		height: 35rem;
+	}
+	.comms-panel-text p {
+		font-size: 1.25rem;
+	}
+
+    .inclusions {
+		margin-top: 1rem;
+		padding-bottom: 0;
+	}
+
+    .tour-intro .intro-text {
+		top: 100%
+	}
+
+	.tour-route-img {
+		height: 700px;
+	}
+}
 
 
+   

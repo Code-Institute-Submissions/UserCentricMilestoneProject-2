@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!--Meta Data-->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Style Sheets-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css">
+      <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+      <!--Favicon stylesheets-->
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+      <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+      <!--CSS External Stylesheet-->
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+      <!--Page Title-->
+      <title>Kiwi Bus Tours</title>
+   </head>
+   <body>
+      <header>
+         <!--Navigation Bar and Brand Logo-->
+         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-custom">
+            <a class="navbar-brand brand-logo" href="index.html">
+            <img src="assets/images/kiwibustourbrand.png" class="d-inline-block align-center brand-size" alt="Peach coloured icon of two kiwi birds" loading="lazy">
+            Kiwi Bus Tours
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavigationItems" aria-controls="navbarNavigationItems" aria-expanded="false"
+               aria-label="Toggle nagivation">
+            <span class="navbar-toggler-icon"></span>
+            </button>	
+            <div class="collapse navbar-collapse" id="navbarNavigationItems">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item"><a class="nav-link" href="index.html">Home<span class="sr-only">(Current)</span></a></li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarTourDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Tours<span class="sr-only">Tours Dropdown menu</span></a>
+                     <div class="dropdown-menu bg-custom" aria-labelledby="navbarTourDropdown"> 
+                        <a class="dropdown-item" href="northislandtour.html">North Island Tour</a>
+                        <a class="dropdown-item" href="southislandtour.html">South Island Tour</a>
+                        <a class="dropdown-item" href="bothislandtour.html">North and South Island Tour</a>                      
+                     </div>
+                  </li>
+                  <li class="nav-item active"><a class="nav-link" href="contactus.html">Contact us</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <main>
+         <!--Contact Section-->
+         <form action="https://formdump.codeinstitute.net/" method="post" target="_blank" class="contact-us">
+            <div class="container">
+               <div class="row m-0">
+                  <!--Company Details-->
+                  <div class="col-12 company-details text-center">
+                     <i class="fas fa-kiwi-bird" aria-hidden="true"></i>
+                     <h2 class="text-uppercase" id="contactHeading">Contact Us</h2>
+                     <p class="text-center text-uppercase"><em>Fill out our form and we will call you back within 24 hours.</em></p>
+                     <p>
+                        1221 Kiwi Street <br>
+                        Auckland 1020 <br>
+                        Outside New Zealand: <br>
+                        +61 7 483 8855 <br>
+                        Inside New Zealand: <br>
+                        089 465 8855 <br>
+                     </p>
+                     <h6 class="text-center text-uppercase">mail@kiwibustours.com</h6>
+                     <p class="text-muted form-warning">*If using a section of our form turns white after autofill/autocomplete, please delete the last letter/number and type it in to return to normal.</p>
+                  </div>
+                  <!--Contact Form-->
+                  <div class="col-12 input-layout">
+                     <!--Found code for justify-content-center at https://stackoverflow.com/questions/46560362/how-to-center-form-using-bootstrap-4/46560551-->
+                     <div class="form-row justify-content-center">
+                        <div class="form-group col-md-6">
+                           <label for="firstName">First Name</label>
+                           <input type="text" class="form-control elegant-form" id="firstName" name="firstName" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                           <label for="surname">Surname</label>
+                           <input type="text" class="form-control elegant-form" id="surname" name="surname" placeholder="Surname" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                           <label for="emailAddress">Email Address</label>
+                           <input type="email" class="form-control elegant-form" id="emailAddress" name="emailAddress" placeholder="exampled@email.com" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                           <label for="phone">Phone Number</label>
+                           <input type="tel" class="form-control elegant-form" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group col-12">
+                           <label for="tourSelectionForm">Which Tour Are You Interested In?</label>
+                           <!--Tutorial highlighting where to set required attribute and how to detail value for intro value found at w3c https://www.w3schools.com/tags/att_select_required.asp-->
+                           <select class="form-control elegant-form" id="tourSelectionForm" required>
+                              <option selected value="">Select...</option>
+                              <!--Tutorial showing that value is required to be sent found at w3c https://www.w3schools.com/tags/tag_option.asp-->
+                              <option value="North Island Tour">North Island Tour</option>
+                              <option value="South Island Tour">South Island Tour</option>
+                              <option value="North and South Island Tour">North and South Island Tour</option>
+                           </select>
+                        </div>
+                        <div class="form-group col-12">
+                           <label for="contactTextArea">Any other details</label>
+                           <textarea class="form-control elegant-form" id="contactTextArea" name="contactTextArea" rows="5" cols="50"
+                              placeholder="Please enter any extra information; such the number of passengers travelling or any particular questions we can answer." required></textarea>
+                        </div>
+                     </div>
+                     <button type="submit" class="btn btn-colour btn-lg btn-block btn-position text-uppercase">Submit</button>
+                  </div>
+               </div>
+            </div>
+         </form>
+      </main>
+      <!--Footer-->
+      <footer>
+         <div class="container-fluid footer mt-auto py-3 bg-custom">
+            <div class="row">
+               <div class="col-12 col-md-6 text-center">
+                  <p>&#169; Kiwi Bus Tour Company 2020</p>
+               </div>
+               <!--Social Media Links-->
+               <div class="col-12 col-md-6 text-center">
+                  <ul class="social-links list-inline">
+                     <li class="list-inline">
+                        <a href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook-square" aria-hidden="true"></i> 
+                        <span class="sr-only">Facebook</span>
+                        </a>
+                     </li>
+                     <li class="list-inline">
+                        <a href="https://www.pinterest.com" target="_blank">
+                        <i class="fab fa-pinterest-square" aria-hidden="true"></i> 
+                        <span class="sr-only">Pinterest</span>
+                        </a>
+                     </li>
+                     <li class="list-inline">
+                        <a href="https://www.youtube.com" target="_blank">
+                        <i class="fab fa-youtube-square" aria-hidden="true"></i> 
+                        <span class="sr-only">Youtube</span>
+                        </a>
+                     </li>
+                     <li class="list-inline">
+                        <a href="https://www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter-square" aria-hidden="true"></i> 
+                        <span class="sr-only">Twitter</span>
+                        </a>
+                     </li>
+                     <li class="list-inline">
+                        <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram-square" aria-hidden="true"></i> 
+                        <span class="sr-only">instagram</span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!--Scripts-->
+      <!--Jquery-->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <!--CloudFlare-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <!--Bootstrap-->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <!--Font-Awesome-->
+      <script src="https://kit.fontawesome.com/d57b53712b.js" crossorigin="anonymous"></script>
+   </body>
+</html>
