@@ -91,7 +91,8 @@
                         <div class="form-group col-12">
                            <label for="tourSelectionForm">Which Tour Are You Interested In?</label>
                            <!--Tutorial highlighting where to set required attribute and how to detail value for intro value found at w3c https://www.w3schools.com/tags/att_select_required.asp-->
-                           <select class="form-control elegant-form" id="tourSelectionForm" required>
+                           <!--Needed to add name value for form to send, found solution at https://stackoverflow.com/questions/14149088/how-to-pass-value-from-optionselect-to-form-action-->
+                           <select class="form-control elegant-form" id="tourSelectionForm" name="tour" required>
                               <option selected value="">Select...</option>
                               <!--Tutorial showing that value is required to be sent found at w3c https://www.w3schools.com/tags/tag_option.asp-->
                               <option value="North Island Tour">North Island Tour</option>
