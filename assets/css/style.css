@@ -101,6 +101,7 @@ body {
 
 .about-img {
 	height: 38.5rem;
+    object-fit: contain
 }
 
 /*-----------Tour Article Links-----------*/
@@ -721,6 +722,10 @@ instead of ids*/
     .input-layout,
     .form-control {
         font-size: 1.5rem;
+    }
+
+    .about-img {
+        height: 45rem;
     }
         
 
