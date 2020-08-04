@@ -199,12 +199,11 @@ body {
 /*Background image and dark overlay for contact section to differentiate it from other pages and make writing easier to read 
 found at https://css-tricks.com/basics-css-blend-modes*/
 .contact-us {
-    background-color: rgba(1, 1, 1, 0.7);
+    background: (1,1,1);
 	background-image: url("../images/contactusbackground.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-    background-blend-mode: multiply;
 	margin-top: 3.5rem;
     color: #fff9f1;
     padding-top: 0.5rem;
@@ -390,7 +389,6 @@ instead of ids*/
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	background-blend-mode: multiply;
 	padding-top: 1.5rem;
 	padding-bottom: 2rem;
 }
