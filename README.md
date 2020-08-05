@@ -132,13 +132,14 @@ Responsive across different media platforms.
 ---
 Testing was performed throughout the project’s development through the Chrome DevTools; DevTools allowed any obvious errors or mistakes to be edited or identified in real time. 
 Once identified, temporary solutions or fixes could be trialled and then implemented in the IDE. Chrome DevTools presented the chance to trial the website on different size 
-screens and even some emulated models on the marker, this was key to developing the phone from a mobile form to a responsive tablet and laptop version also. Some errors were found 
-when comparing the laptop, laptop large and 4k emulations as the screen being used was actually larger than anticipated. Therefore, some changes implemented for laptop screens were
- being viewed on laptop large screen natively. This caused some elements to not display as anticipated and had to be corrected, often my reducing font sizes.
+screens and even some emulated models on the marker, this was key to developing the phone from a mobile form to a responsive tablet and laptop version also. 
+
+Some errors were found when comparing the laptop, laptop large and 4k emulations as the screen being used was actually larger than anticipated. Therefore, some changes implemented for laptop screens were
+being viewed on laptop large screen natively. This caused some elements to not display as anticipated and had to be corrected, often my reducing font sizes.
 
 A key tool for testing was also my code-institute assigned mentor; they code reviewed my project and offered structural and styling advice. Key points found from our meetings 
 were incorrect use of the bootstrap container > row > column format, this was corrected where used to be nested accurately. I has also pasted a copyright symbol into my footer
- and was told this needed to be an ascii key for it to be displayed correctly, I was directed to the relevant information and inserted the copyright ascii key.
+and was told this needed to be an ascii key for it to be displayed correctly, I was directed to the relevant information and inserted the copyright ascii key.
 
 Another key point was the number of colours used throughout the project and keeping them to a set number. Equally all headings and text should have similar stylings and even 
 margins to show uniformity across the project. To this end I used the Adobe Color tool to identify colour palettes suitable for my content, I also made a standard margin setting
@@ -212,7 +213,7 @@ My largest found bug came from internet explorer as it does not support the RGBA
 already have the opacity overlay applied when uploaded, primarily for the inclusions/highlights background and contact page which became unreadable.
 
 
-### KNOWN BUGS:
+### Known Bugs:
 *	Autocomplete on contact form leaves a white background on the selected input only: When autocompleting your details, if you used the Surname (for example) input as your focus all the rest will return to normal but surname will stay white. I have not found a fix for this beside deleting one character and retyping it.
 *	iPhone 6s also did not load the hero image but all other versions did: This might have been a problem with the browserstack software and time limitations so am unsure. 
 *	Email validation: While the input type email does search for an @ symbol, I cannot form proper validation without JavaScript this project does not have access to.
