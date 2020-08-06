@@ -5,7 +5,7 @@
 [Live Project can be viewed here.](https://rhyspollarddevelopment.github.io/UserCentricMilestoneProject/index.html)
 
 The goal of this project was the development of a full responsive, static frontend website as a demonstration of application of skills gained from the first three modules of 
-the Full Stack Developer Programme. The project focuses on a a HTML, CSS and optional Bootstrap derived website which is functional across multiple devices.
+the Full Stack Developer Programme. The project focuses on a HTML, CSS and optional Bootstrap derived website which is functional across multiple devices.
 
 My Milestone project was the development of Kiwi Bus Tours travel agency. This is a mobile-first, responsive travel company set in New Zealand. The company is primarily a take on
 bus tours for smaller, more intimate groups which can be easily shared with others and encourages communication with the business.
@@ -13,7 +13,7 @@ bus tours for smaller, more intimate groups which can be easily shared with othe
 ## User Experience (UX)
 ---
 Kiwi Bus Tours' design was intended for potential customers who would like to travel but are not as interested in large scales tour groups and would like to travel further than 
-smaller bus tours would typically travel. The goal would be a website more personable than a companies such as [Kiwi Experience](https://www.kiwiexperience.com/) but offer more than 
+smaller bus tours would typically travel. The goal would be a website more personable than companies such as [Kiwi Experience](https://www.kiwiexperience.com/) but offer more than 
 smaller buisness such as [Mini Bus Tours](https://www.minibustours.co.nz/).
 
 The project tailors itself to smaller, more personable groups who are not necessarily interested in massive days out or bungee jumping. Ideally this means family groups, middle aged to
@@ -132,13 +132,13 @@ Responsive across different media platforms.
 ---
 Testing was performed throughout the project’s development through the Chrome DevTools; DevTools allowed any obvious errors or mistakes to be edited or identified in real time. 
 Once identified, temporary solutions or fixes could be trialled and then implemented in the IDE. Chrome DevTools presented the chance to trial the website on different size 
-screens and even some emulated models on the marker, this was key to developing the phone from a mobile form to a responsive tablet and laptop version also. 
+screens and even some emulated tablet and phone models, this was key to developing the phone from a mobile form to a responsive tablet and laptop version also. 
 
 Some errors were found when comparing the laptop, laptop large and 4k emulations as the screen being used was actually larger than anticipated. Therefore, some changes implemented for laptop screens were
 being viewed on laptop large screen natively. This caused some elements to not display as anticipated and had to be corrected, often my reducing font sizes.
 
 A key tool for testing was also my code-institute assigned mentor; they code reviewed my project and offered structural and styling advice. Key points found from our meetings 
-were incorrect use of the bootstrap container > row > column format, this was corrected where used to be nested accurately. I has also pasted a copyright symbol into my footer
+were incorrect use of the bootstrap container > row > column format, this was corrected where used to be nested accurately. I had also pasted a copyright symbol into my footer
 and was told this needed to be an ascii key for it to be displayed correctly, I was directed to the relevant information and inserted the copyright ascii key.
 
 Another key point was the number of colours used throughout the project and keeping them to a set number. Equally all headings and text should have similar stylings and even 
@@ -184,12 +184,12 @@ margins to show uniformity across the project. To this end I used the Adobe Colo
 
 
 Friends and family were asked to read through the site and check for spelling errors, visual problems or broken links without my bias. Key problems found were usually grammatical such as
-the mis-spelling of Christchurch, confusing text flow or sentences, non-consistent capitalization of some headers (fixed with the text-capitalize class) or the unused personalised tour page
+the misspelling of Christchurch, confusing text flow or sentences, non-consistent capitalization of some headers (fixed with the text-capitalize class) or the unused personalised tour page
 still in the tour drop-down.
 
 ### W3C CSS validator
 The CSS code was parsed by the W3C CSS validator with these errors or warnings.
-* The only error was that the contact form inputs’ background and border had both been set to transparent. This error was fixed by removing the border entirely and 
+* The main error was that the contact form inputs’ background and border had both been set to transparent. This error was fixed by removing the border entirely and 
 then declaring a solid bottom style border only. 
 * The validator highlighted a warning with the use of a -webkit-autofill styling and selector used in my contact form. This kit prevents the autocomplete feature of 
 browsers from removing the background colour and making text unreadable. While this is considered a warning, I have decided to keep the -webkit in; primarily as reading 
@@ -197,8 +197,8 @@ across documentation from other sites had suggested heavily that this is not an 
 
 ### HTML validator
 All HTML pages were parsed through the W3C HTML validator with these errors and warnings.
-* The ascii key I had put in was incorrect as it lacked a ; following the code. This was corrected and tested to ensure it had displayed properly across all pages. 
-* The validator also found errors of a small class in the form select option; this was removed as it was incorrect
+* The ascii key I had put in was incorrect as it lacked a semicolon following the code. This was corrected and tested to ensure it had displayed properly across all pages. 
+* The validator also found errors of a small class in the form select option; this was removed as it was incorrect.
 * Incorrect use of article instead of main around the tour pages and a lack of headings for relevant sections. The article tag was replaced with a main tag and headings were inserted into the required sections.
 
 
@@ -228,10 +228,16 @@ For my projects development, changes were committed to Git and pushed to GitHub.
 2.	Under the repository name (just above the green buttons for code and Gitpod), click the Settings” button.
 3.	Scroll down the new page until you find the “GitHub Pages” heading.
 4.	Under the “Source” subheading, used the dropdown to select the master branch to run the page from.
-5.	Click the save button to the right.
-6.	A new highlighted section will appear with the projects url for you to access.
+5.	Click the save button to the right, the screen with auto refresh.
+6.	A new highlighted ribbon will appear with the projects url for you to access saying  **Your site is published at https://rhyspollarddevelopment.github.io/UserCentricMilestoneProject/**.
 
-This project did move to a separate branch named “Style redesign” but was later merged back into the main branch.
+This project did move to a separate branch named “Style redesign” but was later merged back into the main branch, this was done as shown:
+1. On the new branch, select the "Pull request" green button.
+2. This created a pull request review which detailed the major changes of the fork compared to the master branch.
+3. Once approved, return to the branch repository and select the "Pull requests" heading below repository name.
+4. If there are no conflicts, select the "Merge Pull Request" green drop down.
+5. Choose the option "Create a merge commit" to complete the merge.
+6. You can now delete the branch if required.
 
 ### How to clone the repository:
 
@@ -256,7 +262,7 @@ All images considered “smaller” have been reduced to <500kb.
 
 Due to the nature of most images in this project, some images have been left above the 500kb size limit as they take up a minimum of 65-70% of the
  screen and are the entire width of the page. Therefore, I would consider this similar to “full-screen” and compressing further would go against criteria of larger
-  images having high enough resolution. No image is above 3MB with all but none 4 hero/background images above 1MB.
+  images having high enough resolution. No image is above 3MB with all but 4 hero/background images above 1MB.
 
 ## Acknowledgements
 ---
